@@ -1,3 +1,3 @@
-This is a repository for the development of a beamer presentation about qubits and quantum Computers
+This is a repository for the development of a beamer presentation about qubits and quantum Computers.
 
 When the presentation is complete It should be part of the teaching material for the Erasmus+ project QuTe (Quantum Teaching).

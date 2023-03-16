@@ -1,5 +1,6 @@
 \documentclass[10pt]{beamer}
 \setbeameroption{hide notes}
+\usepackage{qcircuit}
 \usepackage{braket}
 \usepackage{tikz}
 % \setbeameroption{show notes on second screen}
@@ -450,14 +451,133 @@
       Show that the state $\frac{1}{5}(3\ket{0}+4\ket{1})$ is normalised and determine the probability, $P_1$, of measuring 1 if the qubit is initially in the state $\ket{\psi}=\frac{1}{5}(3\ket{0}+4\ket{1})$.
     \end{block}
   \end{frame}
-  
-\begin{frame}
-  \section{Entanglement}
-  \centering
-  \includegraphics[width=0.7\linewidth]{img/tangled-yarn.jpg}
-\end{frame}
+
 \begin{frame}
   \section{Operators and Diagrams}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Single Qubit operators}
+  We want to do something with the qubits! We do that with \textbf{operators}.
+  \begin{block}{Definition: Operator}
+    An operator acts on a state and returns a state.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Doing nothing}
+  \centerline{\Qcircuit @C=2em @R=1.5em {\lstick{\ket{0}}   &    \qw &    \rstick{\ket{0}} \qw}}
+  \vfill
+  \begin{itemize}
+  \item A single qubit is drawn as a horizontal line. 
+  \item Each end indicate the state of the qubit.
+  \item Read from left to right.
+  \end{itemize}
+  \vfill
+\end{frame}
+  
+\begin{frame}
+  \frametitle{The Z operator}
+  \begin{block}{Definition: The operator Z}
+    $Z= \ket{0}\bra{0}-\ket{1}\bra{1}$
+  \end{block}
+    \centerline{
+\Qcircuit @C=2em @R=1.5em {
+   \lstick{\ket{0}}   &   \gate{Z}   &    \rstick{\ket{0}} \qw \\
+   \lstick{\ket{1}}   &   \gate{Z}   &    \rstick{-\ket{1}} \qw \\
+}
+}
+\begin{itemize}
+\item<2-> An operator acts on a state from the \emph{left}.
+\item<3->  i.e. $Z \ket{\psi} = \left(\ket{0}\bra{0}-\ket{1}\bra{1}\right) \ket{\psi}$
+  
+\item<4-|alert@4> What does $Z$ do?
+\end{itemize}
+\begin{block}{Exercise 15 in the notes.}<4->
+  Use the definition of $Z$, i.e. that $Z=|0\rangle\langle0|-|1\rangle\langle1|$, and let it act on $\ket{0}$ and $\ket{1}$. Show that the result is the same as depicted on the figure.
+\end{block}
+\end{frame}
+\begin{frame}
+  \frametitle{The X operator}
+  \begin{block}{Definition: The operator X}
+    $X = \ket{1}\bra{0}+\ket{0}\bra{1}$
+  \end{block}
+\centerline{
+\Qcircuit @C=2em @R=1.5em {
+   \lstick{\ket{0}}   &   \gate{X}   &    \rstick{\ket{1}} \qw \\
+   \lstick{\ket{1}}   &   \gate{X}   &    \rstick{\ket{0}} \qw \\
+}
+}
+\onslide<2-> What does the X operator do?
+\begin{block}{Exercise 16 in the notes.}<2->
+  Show what happen when $X$ acts on the state $\frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)$. If you have studied Appendix 2, then note that you have just shown that $\frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)$ is an eigenstate of $X$ with eigenvalue 1!
+\end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Hadamard operator, $H$}
+  \begin{block}{Definition: The operator $H$}
+    $H = \frac{1}{\sqrt{2}}\left( \ket{0}\bra{0}+ \ket{0}\bra{1} +\ket{1}\bra{0}-\ket{1}\bra{1} \right)$
+  \end{block}	\centerline{
+	\Qcircuit @C=1em @R=.7em {
+   \lstick{\ket{0}}   & \qw & \gate{H} & \qw & \qw & \rstick{\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})}  \\
+   \lstick{\ket{1}}   & \qw & \gate{H} & \qw & \qw & \rstick{\frac{1}{\sqrt{2}}(\ket{0}-\ket{1})}  
+}
+}
+\begin{itemize}
+\item<2-|alert@2> Work through the exercises 17, 18, 19 in the notes. Consult the surrounding examples if in doubt or if you need a hint.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Diagrams with measurements}
+  \centerline{
+\scalebox{1.0}{
+\Qcircuit @C=1.0em @R=0.2em @!R { \\
+	 	\nghost{{q} :  } & \lstick{{q} : \  \ket{0}} & \gate{\mathrm{X}} % \barrier[0em]{0} 
+		& \qw & \meter & \qw & \qw\\
+	 	\nghost{\mathrm{{c} :  }} & \lstick{\mathrm{{c} : \ \ \ \ \ \, }} &% \lstick{/_{_{1}}} 
+		\cw & \cw & \dstick{_{_{\hspace{0.0em}0}}} \cw \ar @{<=} [-1,0] & \cw & \cw\\
+ }}}
+\begin{enumerate}
+\item<2-> q for \textbf{q}ubit and c for \textbf{c}lassical bit.
+\item<3-> qubit starts in state $\ket{0}$
+\item<4-> Operator $X$ acts on the state.
+\item<5-> The new state is measured (acted on by the measuring operator)
+\item<6-> The outcome of the measurement is stored in classical bit number 0 (counting from 0 instead of 1).
+\item<7-> The diagram before the measurement translates to the following calculation: $$X \ket{0} = \left(\ket{1}\bra{0} + \ket{0}\bra{1}  \right)\ket{0}$$
+\item<8-|alert@8> Predict the outcome of the measurement.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example and exercise}
+  Read through the example concerning the Hadamard operator on page 17 and 18 in the notes.
+  Then do exercise 21 on page 18 in the notes.
+
+  \begin{block}{Exercise 21}
+   \centerline{
+\scalebox{1.0}{
+\Qcircuit @C=1.0em @R=0.2em @!R { \\
+	 	\nghost{{q} :  } & \lstick{{q} : \  \ket{0}  } & \gate{\mathrm{H}} & \gate{\mathrm{Z}}  %\barrier[0em]{0}
+		 & \qw & \meter & \qw & \qw\\
+	 	\nghost{\mathrm{{c} :  }} & \lstick{\mathrm{{c} :  \ \ \ \ \ \,  }} & % \lstick{/_{_{1}}} 
+		\cw & \cw & \cw & \dstick{_{_{\hspace{0.0em}0}}} \cw \ar @{<=} [-1,0] & \cw & \cw\\
+\\ }}
+} 
+
+Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit is after $H$ and then $Z$ have acted on it, i.e. calculate $ZH\ket{0}$. Then determine what the probability is of measurement giving 0 and 1, respectively.
+  \end{block}
+\end{frame}
+\begin{frame}
+  \centering
+  \includegraphics[width=8cm]{img/completely-different.png}
+  \uncover<2->{
+    \begin{tikzpicture}[overlay, remember picture]
+     \draw[red,thick] (-4.1,0.9) -- (-2.3,0.9);
+     \node[align=left,anchor=west,red, thick] at (-4.1,0.7) {RELATED.};
+    \end{tikzpicture}
+      }
 \end{frame}
 \begin{frame}
   \section{IBM Q}
@@ -466,22 +586,70 @@
 \end{frame}
 
 \begin{frame}
-  \section{Single Qubit Measurements}
+  \frametitle{Access IBM Q}
+  \begin{itemize}
+  \item Visit \href{https://quantum-computing.ibm.com/}{https://quantum-computing.ibm.com/}
+  \item Create an IBM account or sign in with one of the other options.
+  \item Go to ``Lab''.
+  \end{itemize}
+  \centering
+  \includegraphics[width=9cm]{img/ibmq-login.png}
 \end{frame}
+
+\begin{frame}
+  \frametitle{Upload the IBM Q exercises}
+  Upload the following exercises to the lab file browser. (You can use drag and drop).
+  \begin{itemize}
+  \item MeasurementSingleQubit.ipynb
+  \item MeasurementTwoQubits.ipynb
+  \item MeasurementEntangledQubits.ipynb
+  \item GroversAlgorithm.ipynb
+  \end{itemize}
+
+  \centering
+  \includegraphics[width=9cm]{img/ibmq-upload.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Single Qubit Measurements}
+  Run the \emph{Measurement SingleQubit.ipynb} notebook and follow the instructions. You are now able to perform \textbf{real} work on a real \textbf{quantum computer}! (If you set the variable sym=False)
+  \begin{center}
+  \includegraphics[width=10cm]{img/ibmq-single-qubit.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Pun intended!}
+ Did you get the pun? 
+  \begin{center}
+  \includegraphics[width=7.5cm]{img/completely-different.png}
+    \begin{tikzpicture}[overlay, remember picture]
+     \draw[red,thick] (-4.1,0.9) -- (-2.3,0.9);
+     \node[align=left,anchor=west,red, thick] at (-4.1,0.7) {RELATED.};
+    \end{tikzpicture}
+  \end{center}
+  \uncover<2->{Monty Python $\to$ IBM Q \emph{is} related $\to$ IBM Q uses \emph{Python} $\to$ Python is named after Monty Python, because programming should be fun!}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Back to school!}
+  \centering
+  \includegraphics[width=10cm]{img/back-to-school.png}
+\end{frame}
+
 \begin{frame}
   \section{Two Qubit Measurements}
 \end{frame}
 \begin{frame}
   \section{Entanglement}
+  \centering
+  \includegraphics[width=0.7\linewidth]{img/tangled-yarn.jpg}
 \end{frame}
 
-\appendix
-
 \begin{frame}
-  \section{Backup slides}
-\end{frame}
-\begin{frame}
-  \section{Bras and kets as vectors}
+  \frametitle{Back to IBM Q}
+  \centering
+  \includegraphics[width=10cm]{img/typing.jpg}
 \end{frame}
 
 \end{document}

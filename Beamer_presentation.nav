@@ -64,52 +64,54 @@
 \headcommand {\beamer@framepages {72}{72}}
 \headcommand {\beamer@sectionpages {1}{72}}
 \headcommand {\beamer@subsectionpages {1}{72}}
-\headcommand {\sectionentry {5}{Entanglement}{73}{Entanglement}{0}}
+\headcommand {\sectionentry {5}{Operators and Diagrams}{73}{Operators and Diagrams}{0}}
 \headcommand {\slideentry {5}{0}{0}{73/73}{}{0}}
 \headcommand {\beamer@framepages {73}{73}}
-\headcommand {\beamer@sectionpages {1}{73}}
-\headcommand {\beamer@subsectionpages {1}{73}}
-\headcommand {\sectionentry {6}{Operators and Diagrams}{74}{Operators and Diagrams}{0}}
-\headcommand {\slideentry {6}{0}{0}{74/74}{}{0}}
+\headcommand {\slideentry {5}{0}{1}{74/74}{}{0}}
 \headcommand {\beamer@framepages {74}{74}}
-\headcommand {\beamer@sectionpages {1}{74}}
-\headcommand {\beamer@subsectionpages {1}{74}}
-\headcommand {\sectionentry {7}{IBM Q}{75}{IBM Q}{0}}
-\headcommand {\slideentry {7}{0}{0}{75/75}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{75/75}{}{0}}
 \headcommand {\beamer@framepages {75}{75}}
-\headcommand {\beamer@sectionpages {1}{75}}
-\headcommand {\beamer@subsectionpages {1}{75}}
-\headcommand {\sectionentry {8}{Single Qubit Measurements}{76}{Single Qubit Measurements}{0}}
-\headcommand {\slideentry {8}{0}{0}{76/76}{}{0}}
-\headcommand {\beamer@framepages {76}{76}}
-\headcommand {\beamer@sectionpages {1}{76}}
-\headcommand {\beamer@subsectionpages {1}{76}}
-\headcommand {\sectionentry {9}{Two Qubit Measurements}{77}{Two Qubit Measurements}{0}}
-\headcommand {\slideentry {9}{0}{0}{77/77}{}{0}}
-\headcommand {\beamer@framepages {77}{77}}
-\headcommand {\beamer@sectionpages {1}{77}}
-\headcommand {\beamer@subsectionpages {1}{77}}
-\headcommand {\sectionentry {10}{Entanglement}{78}{Entanglement}{0}}
-\headcommand {\slideentry {10}{0}{0}{78/78}{}{0}}
-\headcommand {\beamer@framepages {78}{78}}
-\headcommand {\gdef \insertmainframenumber {31}}
-\headcommand {\partentry {\translate {Appendix}}{1}}
-\headcommand {\beamer@partpages {1}{78}}
-\headcommand {\beamer@sectionpages {1}{78}}
-\headcommand {\beamer@subsectionpages {1}{78}}
-\headcommand {\beamer@appendixpages {79}}
-\headcommand {\beamer@sectionpages {79}{78}}
-\headcommand {\beamer@subsectionpages {79}{78}}
-\headcommand {\sectionentry {11}{Backup slides}{79}{Backup slides}{1}}
-\headcommand {\slideentry {11}{0}{0}{79/79}{}{1}}
-\headcommand {\beamer@framepages {79}{79}}
-\headcommand {\beamer@sectionpages {79}{79}}
-\headcommand {\beamer@subsectionpages {79}{79}}
-\headcommand {\sectionentry {12}{Bras and kets as vectors}{80}{Bras and kets as vectors}{1}}
-\headcommand {\slideentry {12}{0}{0}{80/80}{}{1}}
-\headcommand {\beamer@framepages {80}{80}}
-\headcommand {\beamer@partpages {79}{80}}
-\headcommand {\beamer@subsectionpages {79}{80}}
-\headcommand {\beamer@sectionpages {79}{80}}
-\headcommand {\beamer@documentpages {80}}
-\headcommand {\gdef \inserttotalframenumber {33}}
+\headcommand {\slideentry {5}{0}{3}{76/79}{}{0}}
+\headcommand {\beamer@framepages {76}{79}}
+\headcommand {\slideentry {5}{0}{4}{80/81}{}{0}}
+\headcommand {\beamer@framepages {80}{81}}
+\headcommand {\slideentry {5}{0}{5}{82/83}{}{0}}
+\headcommand {\beamer@framepages {82}{83}}
+\headcommand {\slideentry {5}{0}{6}{84/91}{}{0}}
+\headcommand {\beamer@framepages {84}{91}}
+\headcommand {\slideentry {5}{0}{7}{92/92}{}{0}}
+\headcommand {\beamer@framepages {92}{92}}
+\headcommand {\slideentry {5}{0}{8}{93/94}{}{0}}
+\headcommand {\beamer@framepages {93}{94}}
+\headcommand {\beamer@sectionpages {1}{94}}
+\headcommand {\beamer@subsectionpages {1}{94}}
+\headcommand {\sectionentry {6}{IBM Q}{95}{IBM Q}{0}}
+\headcommand {\slideentry {6}{0}{0}{95/95}{}{0}}
+\headcommand {\beamer@framepages {95}{95}}
+\headcommand {\slideentry {6}{0}{1}{96/96}{}{0}}
+\headcommand {\beamer@framepages {96}{96}}
+\headcommand {\slideentry {6}{0}{2}{97/97}{}{0}}
+\headcommand {\beamer@framepages {97}{97}}
+\headcommand {\slideentry {6}{0}{3}{98/98}{}{0}}
+\headcommand {\beamer@framepages {98}{98}}
+\headcommand {\slideentry {6}{0}{4}{99/100}{}{0}}
+\headcommand {\beamer@framepages {99}{100}}
+\headcommand {\slideentry {6}{0}{5}{101/101}{}{0}}
+\headcommand {\beamer@framepages {101}{101}}
+\headcommand {\beamer@sectionpages {1}{101}}
+\headcommand {\beamer@subsectionpages {1}{101}}
+\headcommand {\sectionentry {7}{Two Qubit Measurements}{102}{Two Qubit Measurements}{0}}
+\headcommand {\slideentry {7}{0}{0}{102/102}{}{0}}
+\headcommand {\beamer@framepages {102}{102}}
+\headcommand {\beamer@sectionpages {1}{102}}
+\headcommand {\beamer@subsectionpages {1}{102}}
+\headcommand {\sectionentry {8}{Entanglement}{103}{Entanglement}{0}}
+\headcommand {\slideentry {8}{0}{0}{103/103}{}{0}}
+\headcommand {\beamer@framepages {103}{103}}
+\headcommand {\slideentry {8}{0}{1}{104/104}{}{0}}
+\headcommand {\beamer@framepages {104}{104}}
+\headcommand {\beamer@partpages {1}{104}}
+\headcommand {\beamer@subsectionpages {1}{104}}
+\headcommand {\beamer@sectionpages {1}{104}}
+\headcommand {\beamer@documentpages {104}}
+\headcommand {\gdef \inserttotalframenumber {43}}
