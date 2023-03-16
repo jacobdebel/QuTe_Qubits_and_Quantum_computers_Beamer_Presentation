@@ -1,0 +1,28 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.1.14)  13 MAR 2023 14:36
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**&pdflatex prv_Beamer_presentation.ini \nonstopmode\nofiles\PassOptionsToPackage{active,tightpage,auctex}{preview}\AtBeginDocument{\ifx\ifPreview\undefined\RequirePackage[displaymath,floats,graphics,textmath,sections,footnotes]{preview}[2004/11/05]\fi} \input \detokenize{ Beamer_presentation.tex }
+(./prv_Beamer_presentation.ini
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+! I can't find file `mylatex.ltx'.
+l.5 \let\dump\PREVIEWdump\dump}\input mylatex.ltx 
+                                                  \relax%
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name
+! Emergency stop.
+l.5 \let\dump\PREVIEWdump\dump}\input mylatex.ltx 
+                                                  \relax%
+*** (job aborted, file error in nonstop mode)
+
+ 
+Here is how much of TeX's memory you used:
+ 20 strings out of 479305
+ 509 string characters out of 5872607
+ 286986 words of memory out of 5000000
+ 18163 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 475 hyphenation exceptions out of 8191
+ 13i,0n,12p,419b,10s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
