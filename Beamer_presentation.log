@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.1.14)  18 MAR 2023 01:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.1.14)  18 MAR 2023 12:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,7 +1092,7 @@ thkerncmss.
 Package xypdf Info: Line width: 0.39998pt on input line 25.
 
 (./Beamer_presentation.nav)
-<img/erasmus_plus.jpg, id=53, 205.9695pt x 43.362pt>
+<img/erasmus_plus.jpg, id=57, 205.9695pt x 43.362pt>
 File: img/erasmus_plus.jpg Graphic file (type jpg)
 <use img/erasmus_plus.jpg>
 Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 26.
@@ -1134,12 +1134,12 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 63.
  [4
 
 ]
-<img/euro-0.jpg, id=84, 542.025pt x 542.025pt>
+<img/euro-0.jpg, id=88, 542.025pt x 542.025pt>
 File: img/euro-0.jpg Graphic file (type jpg)
 <use img/euro-0.jpg>
 Package pdftex.def Info: img/euro-0.jpg  used on input line 63.
 (pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
-<img/euro-1.jpg, id=85, 542.025pt x 542.025pt>
+<img/euro-1.jpg, id=89, 542.025pt x 542.025pt>
 File: img/euro-1.jpg Graphic file (type jpg)
 <use img/euro-1.jpg>
 Package pdftex.def Info: img/euro-1.jpg  used on input line 63.
@@ -1151,13 +1151,13 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 63.
  [5
 
  <./img/euro-0.jpg> <./img/euro-1.jpg>]
-<img/keep-calm-its-just-a-bit-of-fun.png, id=91, 602.25pt x 702.625pt>
+<img/keep-calm-its-just-a-bit-of-fun.png, id=95, 602.25pt x 702.625pt>
 File: img/keep-calm-its-just-a-bit-of-fun.png Graphic file (type png)
 <use img/keep-calm-its-just-a-bit-of-fun.png>
 Package pdftex.def Info: img/keep-calm-its-just-a-bit-of-fun.png  used on input
  line 63.
 (pdftex.def)             Requested size: 73.15826pt x 85.35826pt.
-<img/keep-calm-its-just-a-bit-of-fun_upside_down.png, id=92, 602.25pt x 702.625
+<img/keep-calm-its-just-a-bit-of-fun_upside_down.png, id=96, 602.25pt x 702.625
 pt>
 File: img/keep-calm-its-just-a-bit-of-fun_upside_down.png Graphic file (type pn
 g)
@@ -1173,7 +1173,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 63.
 
  <./img/keep-calm-its-just-a-bit-of-fun.png (PNG copy)> <./img/keep-calm-its-ju
 st-a-bit-of-fun_upside_down.png>]
-<img/ssd.png, id=99, 401.5pt x 296.10625pt>
+<img/ssd.png, id=103, 401.5pt x 296.10625pt>
 File: img/ssd.png Graphic file (type png)
 <use img/ssd.png>
 Package pdftex.def Info: img/ssd.png  used on input line 63.
@@ -1200,7 +1200,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 70.
  [9
 
 ]
-<img/random_numbers.png, id=117, 558.085pt x 398.48875pt>
+<img/random_numbers.png, id=121, 558.085pt x 398.48875pt>
 File: img/random_numbers.png Graphic file (type png)
 <use img/random_numbers.png>
 Package pdftex.def Info: img/random_numbers.png  used on input line 81.
@@ -1223,7 +1223,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 81.
  [11
 
 ]
-<img/lock5.jpg, id=129, 803.0pt x 803.0pt>
+<img/lock5.jpg, id=133, 803.0pt x 803.0pt>
 File: img/lock5.jpg Graphic file (type jpg)
 <use img/lock5.jpg>
 Package pdftex.def Info: img/lock5.jpg  used on input line 98.
@@ -1235,7 +1235,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 98.
  [12
 
  <./img/lock5.jpg>]
-<img/Complexity.pdf, id=135, 361.35pt x 212.795pt>
+<img/Complexity.pdf, id=139, 361.35pt x 212.795pt>
 File: img/Complexity.pdf Graphic file (type pdf)
 <use img/Complexity.pdf>
 Package pdftex.def Info: img/Complexity.pdf  used on input line 114.
@@ -1258,13 +1258,13 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 114.
  [14
 
 ]
-<img/IBM_Blue_Gene_P_supercomputer.jpg, id=168, 1927.2pt x 1276.77pt>
+<img/IBM_Blue_Gene_P_supercomputer.jpg, id=172, 1927.2pt x 1276.77pt>
 File: img/IBM_Blue_Gene_P_supercomputer.jpg Graphic file (type jpg)
 <use img/IBM_Blue_Gene_P_supercomputer.jpg>
 Package pdftex.def Info: img/IBM_Blue_Gene_P_supercomputer.jpg  used on input l
 ine 140.
 (pdftex.def)             Requested size: 92.1879pt x 61.05632pt.
-<img/wardrobe.png, id=169, 602.25pt x 423.5825pt>
+<img/wardrobe.png, id=173, 602.25pt x 423.5825pt>
 File: img/wardrobe.png Graphic file (type png)
 <use img/wardrobe.png>
 Package pdftex.def Info: img/wardrobe.png  used on input line 140.
@@ -1287,7 +1287,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 162.
  [16
 
 ]
-<img/bohrmodel.png, id=182, 602.25pt x 413.545pt>
+<img/bohrmodel.png, id=186, 602.25pt x 413.545pt>
 File: img/bohrmodel.png Graphic file (type png)
 <use img/bohrmodel.png>
 Package pdftex.def Info: img/bohrmodel.png  used on input line 162.
@@ -1320,12 +1320,12 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 162.
 [18
 
 ]
-<img/nvcenter.png, id=194, 220.825pt x 233.87375pt>
+<img/nvcenter.png, id=198, 220.825pt x 233.87375pt>
 File: img/nvcenter.png Graphic file (type png)
 <use img/nvcenter.png>
 Package pdftex.def Info: img/nvcenter.png  used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 90.4003pt.
-<img/nvtransitions.png, id=196, 290.08376pt x 259.97125pt>
+<img/nvtransitions.png, id=200, 290.08376pt x 259.97125pt>
 File: img/nvtransitions.png Graphic file (type png)
 <use img/nvtransitions.png>
 Package pdftex.def Info: img/nvtransitions.png  used on input line 162.
@@ -1358,7 +1358,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 214.
  [22
 
 ]
-<img/bra.jpg, id=222, 286.671pt x 344.0052pt>
+<img/bra.jpg, id=226, 286.671pt x 344.0052pt>
 File: img/bra.jpg Graphic file (type jpg)
 <use img/bra.jpg>
 Package pdftex.def Info: img/bra.jpg  used on input line 214.
@@ -1371,7 +1371,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 214.
 [23
 
  <./img/bra.jpg>]
-<img/braces.png, id=228, 461.725pt x 289.08pt>
+<img/braces.png, id=232, 461.725pt x 289.08pt>
 File: img/braces.png Graphic file (type png)
 <use img/braces.png>
 Package pdftex.def Info: img/braces.png  used on input line 214.
@@ -1383,7 +1383,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 214.
  [24
 
  <./img/braces.png>]
-<img/brackets.png, id=235, 1204.5pt x 4771.8275pt>
+<img/brackets.png, id=239, 1204.5pt x 4771.8275pt>
 File: img/brackets.png Graphic file (type png)
 <use img/brackets.png>
 Package pdftex.def Info: img/brackets.png  used on input line 214.
@@ -1395,7 +1395,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 214.
  [25
 
  <./img/brackets.png>]
-<img/superman.jpg, id=244, 591.20876pt x 803.0pt>
+<img/superman.jpg, id=248, 591.20876pt x 803.0pt>
 File: img/superman.jpg Graphic file (type jpg)
 <use img/superman.jpg>
 Package pdftex.def Info: img/superman.jpg  used on input line 220.
@@ -1414,7 +1414,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 242.
  [27
 
 ]
-<img/clark-kent.png, id=255, 1038.12843pt x 705.38531pt>
+<img/clark-kent.png, id=259, 1038.12843pt x 705.38531pt>
 File: img/clark-kent.png Graphic file (type png)
 <use img/clark-kent.png>
 Package pdftex.def Info: img/clark-kent.png  used on input line 242.
@@ -1426,7 +1426,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 242.
  [28
 
  <./img/clark-kent.png (PNG copy)>]
-<img/superman.png, id=261, 1061.46562pt x 682.04813pt>
+<img/superman.png, id=265, 1061.46562pt x 682.04813pt>
 File: img/superman.png Graphic file (type png)
 <use img/superman.png>
 Package pdftex.def Info: img/superman.png  used on input line 242.
@@ -1438,7 +1438,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 242.
  [29
 
  <./img/superman.png (PNG copy)>]
-<img/superman-superposition.png, id=267, 1057.70157pt x 711.4078pt>
+<img/superman-superposition.png, id=271, 1057.70157pt x 711.4078pt>
 File: img/superman-superposition.png Graphic file (type png)
 <use img/superman-superposition.png>
 Package pdftex.def Info: img/superman-superposition.png  used on input line 242
@@ -1481,7 +1481,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 264.
  [33
 
 ]
-<img/euro-spinning.png, id=289, 259.7203pt x 237.13594pt>
+<img/euro-spinning.png, id=293, 259.7203pt x 237.13594pt>
 File: img/euro-spinning.png Graphic file (type png)
 <use img/euro-spinning.png>
 Package pdftex.def Info: img/euro-spinning.png  used on input line 264.
@@ -1507,7 +1507,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 279.
  [36
 
 ]
-<img/unit-circle.jpg, id=305, 604.2575pt x 583.17876pt>
+<img/unit-circle.jpg, id=309, 604.2575pt x 583.17876pt>
 File: img/unit-circle.jpg Graphic file (type jpg)
 <use img/unit-circle.jpg>
 Package pdftex.def Info: img/unit-circle.jpg  used on input line 303.
@@ -1530,7 +1530,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 303.
  [38
 
 ]
-<img/coin-flip.png, id=319, 461.725pt x 301.125pt>
+<img/coin-flip.png, id=323, 461.725pt x 301.125pt>
 File: img/coin-flip.png Graphic file (type png)
 <use img/coin-flip.png>
 Package pdftex.def Info: img/coin-flip.png  used on input line 309.
@@ -1553,7 +1553,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 326.
  [40
 
 ]
-<img/coin-measure.png, id=333, 204.01219pt x 146.04562pt>
+<img/coin-measure.png, id=337, 204.01219pt x 146.04562pt>
 File: img/coin-measure.png Graphic file (type png)
 <use img/coin-measure.png>
 Package pdftex.def Info: img/coin-measure.png  used on input line 326.
@@ -2054,7 +2054,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 572.
  [92
 
 ]
-<img/completely-different.png, id=614, 501.875pt x 396.48125pt>
+<img/completely-different.png, id=618, 501.875pt x 396.48125pt>
 File: img/completely-different.png Graphic file (type png)
 <use img/completely-different.png>
 Package pdftex.def Info: img/completely-different.png  used on input line 582.
@@ -2077,7 +2077,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 582.
  [94
 
 ]
-<img/IBMQ.jpg, id=626, 1204.5pt x 677.53125pt>
+<img/IBMQ.jpg, id=630, 1204.5pt x 677.53125pt>
 File: img/IBMQ.jpg Graphic file (type jpg)
 <use img/IBMQ.jpg>
 Package pdftex.def Info: img/IBMQ.jpg  used on input line 587.
@@ -2089,7 +2089,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 587.
  [95
 
  <./img/IBMQ.jpg>]
-<img/ibmq-login.png, id=633, 1278.27562pt x 596.98032pt>
+<img/ibmq-login.png, id=637, 1278.27562pt x 596.98032pt>
 File: img/ibmq-login.png Graphic file (type png)
 <use img/ibmq-login.png>
 Package pdftex.def Info: img/ibmq-login.png  used on input line 598.
@@ -2101,7 +2101,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 598.
  [96
 
  <./img/ibmq-login.png (PNG copy)>]
-<img/ibmq-upload.png, id=639, 1409.265pt x 712.16063pt>
+<img/ibmq-upload.png, id=643, 1409.265pt x 712.16063pt>
 File: img/ibmq-upload.png Graphic file (type png)
 <use img/ibmq-upload.png>
 Package pdftex.def Info: img/ibmq-upload.png  used on input line 612.
@@ -2117,7 +2117,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 612.
 [97
 
  <./img/ibmq-upload.png (PNG copy)>]
-<img/ibmq-single-qubit.png, id=646, 1411.52344pt x 718.93594pt>
+<img/ibmq-single-qubit.png, id=650, 1411.52344pt x 718.93594pt>
 File: img/ibmq-single-qubit.png Graphic file (type png)
 <use img/ibmq-single-qubit.png>
 Package pdftex.def Info: img/ibmq-single-qubit.png  used on input line 620.
@@ -2159,7 +2159,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 633.
 [100
 
 ]
-<img/back-to-school.png, id=662, 944.7797pt x 662.475pt>
+<img/back-to-school.png, id=666, 944.7797pt x 662.475pt>
 File: img/back-to-school.png Graphic file (type png)
 <use img/back-to-school.png>
 Package pdftex.def Info: img/back-to-school.png  used on input line 639.
@@ -2242,7 +2242,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 652.
  [111
 
 ]
-<img/tangled-yarn.jpg, id=721, 147.4308pt x 98.2872pt>
+<img/tangled-yarn.jpg, id=725, 147.4308pt x 98.2872pt>
 File: img/tangled-yarn.jpg Graphic file (type jpg)
 <use img/tangled-yarn.jpg>
 Package pdftex.def Info: img/tangled-yarn.jpg  used on input line 658.
@@ -2283,7 +2283,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 691.
  [116
 
 ]
-<img/exercise-meme.jpg, id=749, 108.405pt x 107.4414pt>
+<img/exercise-meme.jpg, id=753, 108.405pt x 107.4414pt>
 File: img/exercise-meme.jpg Graphic file (type jpg)
 <use img/exercise-meme.jpg>
 Package pdftex.def Info: img/exercise-meme.jpg  used on input line 697.
@@ -2463,7 +2463,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/b/it' undefined
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
 (Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 787.
 
-<img/entanglement.jpg, id=823, 1204.5pt x 677.53125pt>
+<img/entanglement.jpg, id=827, 1204.5pt x 677.53125pt>
 File: img/entanglement.jpg Graphic file (type jpg)
 <use img/entanglement.jpg>
 Package pdftex.def Info: img/entanglement.jpg  used on input line 787.
@@ -2590,7 +2590,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 880.
  [146
 
 ]
-<img/typing.jpg, id=915, 1002.74625pt x 554.82281pt>
+<img/typing.jpg, id=919, 1002.74625pt x 554.82281pt>
 File: img/typing.jpg Graphic file (type jpg)
 <use img/typing.jpg>
 Package pdftex.def Info: img/typing.jpg  used on input line 886.
@@ -2602,7 +2602,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 886.
  [147
 
  <./img/typing.jpg>]
-<img/ibmq-two-qubit.png, id=922, 1447.65843pt x 718.18312pt>
+<img/ibmq-two-qubit.png, id=926, 1447.65843pt x 718.18312pt>
 File: img/ibmq-two-qubit.png Graphic file (type png)
 <use img/ibmq-two-qubit.png>
 Package pdftex.def Info: img/ibmq-two-qubit.png  used on input line 895.
@@ -2614,7 +2614,7 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 895.
  [148
 
  <./img/ibmq-two-qubit.png (PNG copy)>]
-<img/ibmq-entangled-qubits.png, id=929, 1445.4pt x 718.18312pt>
+<img/ibmq-entangled-qubits.png, id=933, 1445.4pt x 718.18312pt>
 File: img/ibmq-entangled-qubits.png Graphic file (type png)
 <use img/ibmq-entangled-qubits.png>
 Package pdftex.def Info: img/ibmq-entangled-qubits.png  used on input line 904.
@@ -2627,6 +2627,199 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 904.
  [149
 
  <./img/ibmq-entangled-qubits.png (PNG copy)>]
+<img/groovy-baby.jpeg, id=939, 241.90375pt x 209.78375pt>
+File: img/groovy-baby.jpeg Graphic file (type jpg)
+<use img/groovy-baby.jpeg>
+Package pdftex.def Info: img/groovy-baby.jpeg  used on input line 910.
+(pdftex.def)             Requested size: 199.16928pt x 172.7312pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 910.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [150
+
+ <./img/groovy-baby.jpeg>]
+File: img/groovy-baby.jpeg Graphic file (type jpg)
+<use img/groovy-baby.jpeg>
+Package pdftex.def Info: img/groovy-baby.jpeg  used on input line 910.
+(pdftex.def)             Requested size: 199.16928pt x 172.7312pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 910.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [151
+
+]
+<./img/arkivskab.jpg, id=952, 814.04124pt x 1027.84pt>
+File: ./img/arkivskab.jpg Graphic file (type jpg)
+<use ./img/arkivskab.jpg>
+Package pdftex.def Info: ./img/arkivskab.jpg  used on input line 916.
+(pdftex.def)             Requested size: 142.26378pt x 179.62375pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 916.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [152
+
+ <./img/arkivskab.jpg>]
+File: ./img/arkivskab.jpg Graphic file (type jpg)
+<use ./img/arkivskab.jpg>
+Package pdftex.def Info: ./img/arkivskab.jpg  used on input line 934.
+(pdftex.def)             Requested size: 98.33162pt x 124.15102pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 934.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [153
+
+]
+File: ./img/arkivskab.jpg Graphic file (type jpg)
+<use ./img/arkivskab.jpg>
+Package pdftex.def Info: ./img/arkivskab.jpg  used on input line 934.
+(pdftex.def)             Requested size: 98.33162pt x 124.15102pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 934.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [154
+
+]
+File: ./img/arkivskab.jpg Graphic file (type jpg)
+<use ./img/arkivskab.jpg>
+Package pdftex.def Info: ./img/arkivskab.jpg  used on input line 934.
+(pdftex.def)             Requested size: 98.33162pt x 124.15102pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 934.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [155
+
+]
+File: ./img/arkivskab.jpg Graphic file (type jpg)
+<use ./img/arkivskab.jpg>
+Package pdftex.def Info: ./img/arkivskab.jpg  used on input line 934.
+(pdftex.def)             Requested size: 98.33162pt x 124.15102pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 934.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [156
+
+]
+File: ./img/arkivskab.jpg Graphic file (type jpg)
+<use ./img/arkivskab.jpg>
+Package pdftex.def Info: ./img/arkivskab.jpg  used on input line 934.
+(pdftex.def)             Requested size: 98.33162pt x 124.15102pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 934.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [157
+
+]
+<./img/tael_binaert_med_fingrene.jpg, id=984, 3276.24pt x 2457.18pt>
+File: ./img/tael_binaert_med_fingrene.jpg Graphic file (type jpg)
+<use ./img/tael_binaert_med_fingrene.jpg>
+Package pdftex.def Info: ./img/tael_binaert_med_fingrene.jpg  used on input lin
+e 945.
+(pdftex.def)             Requested size: 170.71652pt x 128.0028pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 945.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [158
+
+ <./img/tael_binaert_med_fingrene.jpg>]
+File: ./img/tael_binaert_med_fingrene.jpg Graphic file (type jpg)
+<use ./img/tael_binaert_med_fingrene.jpg>
+Package pdftex.def Info: ./img/tael_binaert_med_fingrene.jpg  used on input lin
+e 945.
+(pdftex.def)             Requested size: 170.71652pt x 128.0028pt.
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 945.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [159
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 959.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [160
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 959.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [161
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 959.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [162
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 977.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [163
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 977.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [164
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 977.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [165
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 977.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+
+[166
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 994.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [167
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 994.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [168
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 994.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [169
+
+]
+File: img/erasmus_plus.jpg Graphic file (type jpg)
+<use img/erasmus_plus.jpg>
+Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 994.
+(pdftex.def)             Requested size: 56.9055pt x 11.97983pt.
+ [170
+
+]
 \tf@nav=\write7
 \openout7 = `Beamer_presentation.nav'.
 
@@ -2641,13 +2834,13 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 904.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Beamer_presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 7B8C9B13A5ADF16D8751F396E9F93B9C;1898.
+(rerunfilecheck)             Checksum: C00C91A97C8A83A300D7DE61121CF1F7;2036.
  ) 
 Here is how much of TeX's memory you used:
- 29010 strings out of 479305
- 558999 string characters out of 5872607
- 875049 words of memory out of 5000000
- 46126 multiletter control sequences out of 15000+600000
+ 29136 strings out of 479305
+ 561167 string characters out of 5872607
+ 876395 words of memory out of 5000000
+ 46204 multiletter control sequences out of 15000+600000
  483934 words of font info for 82 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
  128i,25n,122p,1895b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2667,10 +2860,10 @@ pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts
 share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/ty
 pe1/public/xypic/xyatip10.pfb></usr/share/texmf/fonts/type1/public/xypic/xybtip
 10.pfb>
-Output written on Beamer_presentation.pdf (149 pages, 6933427 bytes).
+Output written on Beamer_presentation.pdf (170 pages, 9150962 bytes).
 PDF statistics:
- 1092 PDF objects out of 1200 (max. 8388607)
- 834 compressed objects within 9 object streams
- 310 named destinations out of 1000 (max. 500000)
- 308 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1218 PDF objects out of 1440 (max. 8388607)
+ 935 compressed objects within 10 object streams
+ 353 named destinations out of 1000 (max. 500000)
+ 331 words of extra memory for PDF output out of 10000 (max. 10000000)
 

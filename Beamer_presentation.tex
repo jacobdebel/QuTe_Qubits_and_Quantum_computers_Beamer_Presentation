@@ -902,4 +902,98 @@ While still at \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-
 \includegraphics[width=9cm]{img/ibmq-entangled-qubits.png}
     \end{center}
 \end{frame}
+\begin{frame}
+  \centering
+  \includegraphics[width=7cm]{img/groovy-baby.jpeg}
+
+  \uncover<2>{\alert{NO, NO!}}
+\end{frame}
+
+  \begin{frame}
+    \section{Grover's algorithm}
+    \centering
+\includegraphics[width=5cm]{./img/arkivskab.jpg}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Grover's algorithm}
+    \begin{columns}
+      \begin{column}{0.6\linewidth}
+        \begin{itemize}
+        \item<+-> You have put your smart phone in the cabinet.
+        \item<+-> but you forgot the exact drawer!
+        \item<+-> A classical computer would on average use $\frac{N}{2}$ searches.
+        \item<+-> A quantum computer would on average use $\sqrt{N}$ searches using \emph{Grover's algorithm}.
+        \item<+-> Let us retrieve the phone using Grover's algorithm.
+        \end{itemize}
+      \end{column}
+      \begin{column}{0.4\linewidth}
+    \centering
+\includegraphics[width=0.8\linewidth]{./img/arkivskab.jpg}
+      \end{column}
+    \end{columns}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Grover's algorithm with 4 drawers}
+    \begin{itemize}
+    \item 4 drawers can be represented by $n=2$ qubits in the special states $\ket{00}, \ket{01}, \ket{10}, \ket{11}$.
+    \item 00, 01, 10, 11 in binary are simply 0, 1, 2, 3 in decimal numbers \uncover<2->{\alert{if you recall.}}
+    \end{itemize}
+
+    \uncover<2->{
+\centering
+      \includegraphics[width=6cm]{./img/tael_binaert_med_fingrene.jpg}}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Grover's algorithm with 4 drawers}
+    \begin{itemize}
+      
+    \item<1-> We assume that the phone is in drawer 11 (4)
+    \item<2-> First step - Prepare the state: $\ket{\psi}=\frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}+\ket{11} \right)$
+    \item<3-> Second step - act with the operator: $O = - \ket{11}\bra{11}$
+      
+\begin{align*}
+  O \ket{\psi} &= \left( -\ket{11}\bra{11} \right)\frac{1}{2}\left( \ket{00} + \ket{01}+\ket{10} + \ket{11} \right) \\
+  &=\frac{1}{2}\left( \ket{00} + \ket{01}+\ket{10} - \ket{11} \right)
+\end{align*}
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Grover's algorithm with 4 drawers}
+    \begin{itemize}
+    \item <1-> Third step - act with the operator:$\left( 2 \ket{\psi}\bra{\psi}- I \right)$
+      
+    \item<2-> The combined operator is called $G = \left( 2 \ket{\psi}\bra{\psi}-I \right) O$
+    \item<3-> $G\ket{\psi}=\left( 2 \ket{\psi}\bra{\psi}-I \right) O\ket{\psi}$
+      
+    \item<4-> Fancy trick!
+      
+\begin{align*}
+  O \ket{\psi} &= \frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}-\ket{11} \right) \\
+               &=\frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}+\ket{11} \right) - \ket{11} \\
+  &= \ket{\psi} - \ket{11}
+\end{align*}
+      
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Grover's algorithm with 4 drawers}
+    \begin{itemize}
+    \item<1-> All combined:
+      
+\begin{align*}
+  G\ket{\psi}&=\left( 2 \ket{\psi}\bra{\psi}-I \right) O\ket{\psi} \\
+             &=\left( 2 \ket{\psi}\bra{\psi}-I \right) \left( \ket{\psi} - \ket{11} \right) \\
+             &=2 \ket{\psi}\braket{\psi|\psi} - I \ket{\psi} - 2 \ket{\psi}\braket{\psi|11} + I \ket{11} \\
+             &=2 \ket{\psi} - \ket{\psi} - 2 \ket{\psi}\frac{1}{2} + \ket{11} \\
+  &= \ket{11}
+\end{align*}
+\item<2-> If we measure now we will get 11 with 100\% probability.
+\item<3-|alert@3> But it's like cheating! We told the \emph{Oracle} (O operator) where the phone was from the beginning.
+\item<4-|alert@4> Grover's algorithm needs to be part of a complete algorithm.
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Grover's algorithm with 8 drawers}
+    Read the example about Grover's algorithm
+  \end{frame}
 \end{document}

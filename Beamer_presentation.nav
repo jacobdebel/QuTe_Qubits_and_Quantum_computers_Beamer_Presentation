@@ -152,8 +152,25 @@
 \headcommand {\beamer@framepages {148}{148}}
 \headcommand {\slideentry {10}{0}{8}{149/149}{}{0}}
 \headcommand {\beamer@framepages {149}{149}}
-\headcommand {\beamer@partpages {1}{149}}
-\headcommand {\beamer@subsectionpages {1}{149}}
-\headcommand {\beamer@sectionpages {1}{149}}
-\headcommand {\beamer@documentpages {149}}
-\headcommand {\gdef \inserttotalframenumber {61}}
+\headcommand {\slideentry {10}{0}{9}{150/151}{}{0}}
+\headcommand {\beamer@framepages {150}{151}}
+\headcommand {\beamer@sectionpages {1}{151}}
+\headcommand {\beamer@subsectionpages {1}{151}}
+\headcommand {\sectionentry {11}{Grover's algorithm}{152}{Grover's algorithm}{0}}
+\headcommand {\slideentry {11}{0}{0}{152/152}{}{0}}
+\headcommand {\beamer@framepages {152}{152}}
+\headcommand {\slideentry {11}{0}{1}{153/157}{}{0}}
+\headcommand {\beamer@framepages {153}{157}}
+\headcommand {\slideentry {11}{0}{2}{158/159}{}{0}}
+\headcommand {\beamer@framepages {158}{159}}
+\headcommand {\slideentry {11}{0}{3}{160/162}{}{0}}
+\headcommand {\beamer@framepages {160}{162}}
+\headcommand {\slideentry {11}{0}{4}{163/166}{}{0}}
+\headcommand {\beamer@framepages {163}{166}}
+\headcommand {\slideentry {11}{0}{5}{167/170}{}{0}}
+\headcommand {\beamer@framepages {167}{170}}
+\headcommand {\beamer@partpages {1}{170}}
+\headcommand {\beamer@subsectionpages {1}{170}}
+\headcommand {\beamer@sectionpages {1}{170}}
+\headcommand {\beamer@documentpages {170}}
+\headcommand {\gdef \inserttotalframenumber {68}}
