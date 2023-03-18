@@ -3,6 +3,7 @@
 \usepackage{qcircuit}
 \usepackage{braket}
 \usepackage{tikz}
+\usepackage[normalem]{ulem}
 % \setbeameroption{show notes on second screen}
 \usetheme[sectionpage=progressbar,numbering=counter,block=fill]{metropolis} % Use metropolis theme
 \title{Qubits And Quantum Computers}
@@ -636,14 +637,246 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
   \centering
   \includegraphics[width=10cm]{img/back-to-school.png}
 \end{frame}
-
 \begin{frame}
-  \section{Two Qubit Measurements}
+  \frametitle{One, Many}
+  How many is \emph{many?}
+  \begin{itemize}
+  \item<2->\only<2>{One} \only<3>{One, two} \only<4>{One, two, many} \only<5->{\sout{One, two, many}}
+  \end{itemize}
+  \onslide<6->{This time it is only}
+  \begin{itemize}
+  \item<7-> \only<7>{One} \only<8->{One, many}
+  \end{itemize}
+  \onslide<9->{This time around we are going to work with \textbf{two} qubit systems.}
+  \onslide<10-> {With two qubits we can do...}
 \end{frame}
+
 \begin{frame}
   \section{Entanglement}
   \centering
   \includegraphics[width=0.7\linewidth]{img/tangled-yarn.jpg}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Two-qubit entanglement}
+  \begin{block}{Definition: Entanglement}
+  Two qubits are entangled if the state of one qubit depends on the other. When two qubits are entangled it is \textit{impossible} to write the total state as a product of a state of the first qubits and a state of the second.
+  \end{block}
+  \only<2>{Let us see some examples. (Read the examples in Chapter V section 10 in the notes, page 10 and 11)}
+\end{frame}
+
+\begin{frame}
+  \frametitle{None entangled two qubit systems}
+  \begin{block}{Two qubits not entangled}
+    If qubit 1 is in the state $\ket{0}$ and qubit 2 is in the state $\ket{1}$, then the total state of the qubits is $\ket{1}\ket{0} = \ket{10}$
+  \end{block}
+  \begin{block}{Another two qubits not entangled}
+    If the state of qubit 1 is $\ket{0}$ and the state of qubit 2 is $\frac{1}{\sqrt{2}}\left( \ket{0}+\ket{1} \right)$, then the total state of the two qubits is $\frac{1}{\sqrt{2}}\left( \ket{0}+\ket{1} \right)\ket{0}=\frac{1}{\sqrt{2}}\left( \ket{00}+\ket{10} \right)$.
+  \end{block}
+
+  \begin{block}{A third example}
+    Two \emph{not entangled} qubits: The two qubits in the state $\frac{1}{5}\left( 3 \ket{01}+4 \ket{11} \right)$ are not entangled, since we can write the state as $\frac{1}{5}\left( 3 \ket{01}+4 \ket{11} \right)= \frac{1}{5}\left( 3 \ket{0}+4 \ket{1} \right)\ket{1}$.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Entangled two qubit systems}
+  \begin{block}{Example: Entangled qubits}
+    Two qubits are in the state $\frac{1}{\sqrt{2}}\left( \ket{10}+\ket{01} \right)$. They are \emph{entangled} because the state of the first qubit depends on the state of the second: If the first qubit is 1 then the other is 0, and vice versa (if the first qubit is 0 then the second i 1). To put it differently, you can no twrite the total state $\frac{1}{\sqrt{2}}\left( \ket{10}+\ket{01} \right)$ as a product of two states $\ket{\dots}\ket{\dots}$.
+  \end{block}
+
+  \begin{block}{Another example}
+    The two qubits in the state $\frac{1}{5}\left( 3\ket{00}+4 \ket{11} \right)$ are entangled.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Time for some exercise}
+  \centering
+  \includegraphics[width=7cm]{img/exercise-meme.jpg}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exercises}
+  \begin{block}{Exercise 11}
+    Two qubits are in the state $\ket{01}$. What is the state of  qubit 1? what about qubit 2?
+  \end{block}
+  \begin{block}{Exercise 12}
+    Determine which of the following two-qubit states are entangled: 
+         \begin{enumerate}
+             \item $\ket{11}$
+             \item $\frac{1}{\sqrt{2}}(\ket{11}+\ket{00}$
+             \item $\frac{1}{\sqrt{2}}(\ket{10}+\ket{11}$ 
+         \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+ \section{But what is the difference between entangled and none entangled states?}
+ \onslide<2>{\centering It's all about the measurements.}
+\end{frame}
+
+\begin{frame}
+  \frametitle{None entangled qubits}
+  \centering
+      Two qubits are in the state $\ket{01}$(read from the right).
+  \begin{columns}
+    \begin{column}{0.5\linewidth}
+      \begin{itemize}
+      \item Qubit 2 is in state $\ket{0}$ .
+      \end{itemize}
+      \begin{center}
+        \includegraphics<1>[height=3cm]{img/euro-0.jpg}
+        \includegraphics<2>[height=3cm]{img/coin-measure.png}
+        \includegraphics<3->[height=3cm]{img/euro-0.jpg}
+        \end{center}
+    \end{column}
+    \begin{column}{0.5\linewidth}
+      \begin{itemize}
+      \item Qubit 1 is in state $\ket{1}$.
+      \end{itemize}
+      \begin{center}
+        \includegraphics<1>[height=3cm]{img/euro-1.jpg}
+        \includegraphics<2>[height=3cm]{img/coin-measure.png}
+        \includegraphics<3->[height=3cm]{img/euro-1.jpg}
+        \end{center}
+    \end{column}
+  \end{columns}
+  \visible<1>{$\phantom{a}$}%
+  \only<2>{Measuring on any of the qubits.}%
+  \only<3>{Does not alter the other.}%
+  \only<4->{The state remains unaltered.}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Entangled qubits}
+  \centering
+      Two qubits are in the entangled state $\frac{1}{\sqrt{2}}\left( \ket{01} + \ket{10} \right)$.
+  \begin{columns}
+    \begin{column}{0.5\linewidth}
+      \begin{center}
+        Qubit 2
+
+        \includegraphics<1-2>[height=3cm]{img/euro-spinning.png}
+        \includegraphics<3->[height=3cm]{img/euro-1.jpg}
+        \end{center}
+    \end{column}
+    \begin{column}{0.5\linewidth}
+      \begin{center}
+        Qubit 1
+
+        \includegraphics<1>[height=3cm]{img/euro-spinning.png}
+        \includegraphics<2>[height=3cm]{img/coin-measure.png}
+        \includegraphics<3->[height=3cm]{img/euro-0.jpg}
+        \end{center}
+    \end{column}
+  \end{columns}
+  \visible<1>{$\phantom{a}$}%
+  \only<2>{We measure qubit 1}%
+  \only<3>{and get 0.}%
+  \only<4>{Qubit 1 is now in state $\ket{0}$ forcing the total state to be $\ket{10}$}%
+  \only<5>{The measurement on qubit 1 affects qubit 2 instantaneously.}
+\end{frame}
+\begin{frame}
+  \frametitle{Albert Einstein}
+    \centering
+  \begin{quote}
+    I cannot seriously believe in it because the theory cannot be reconciled with the idea that physics should represent a reality in time and space, free from \textbf{spooky action at a distance}.
+    \end{quote}
+    \includegraphics[width=6cm]{img/entanglement.jpg}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Untangle these exercises}
+  \begin{block}{Exercise 13}
+    Two qubits are in the state $\frac{1}{\sqrt{2}}(\ket{00}+\ket{11})$. What is the probability of a measurement on the first qubit giving 0 and 1, respectively. If we measure the first qubit, and the outcome is 1, what is the total state of the two qubits immediately after the measurement?
+  \end{block}
+  \begin{block}{Exercise 14}
+   Two qubits are in the state $\frac{1}{5}(3\ket{01}-4\ket{10}$. Will a measurement on the second qubit affect the state of the first qubit? 
+  \end{block}
+\end{frame}
+\begin{frame}
+  \section{Operating on two qubits}
+  \centering
+  The Controlled NOT gate
+\end{frame}
+\begin{frame}
+  \frametitle{The CNOT gate}
+  \begin{block}{The CNOT operator}
+    First qubit is the control bit
+ $  \ \ \ \ CNOT=\ket{00}\bra{00}+\ket{11}\bra{01}+\ket{10}\bra{10}+\ket{01}\bra{11}$
+ \\ Second qubit is the control bit $ \ CNOT=\ket{00}\bra{00}+\ket{01}\bra{01}+\ket{11}\bra{10}+\ket{10}\bra{11}$
+  \end{block}
+  \uncover<2->{But what does it do?}
+
+  \uncover<3->{If the control qubit is 0, it does nothing.}
+
+  \uncover<4->{If the control qubit is 1, it changes the state of the other qubit (by applying the $X$ operator in the other qubit.)}
+\end{frame}
+\begin{frame}
+  \frametitle{Let us check}
+  \begin{block}{$CNOT\ket{01}$ with first qubit as control}
+    
+\begin{align*}
+  CNOT \ket{01} &=\left( \ket{00}\bra{00}+\ket{11}\bra{01}+\ket{10}\bra{10}+\ket{01}\bra{11} \right) \ket{01} \\
+                &= \ket{00}\braket{00|01}+\ket{11}\braket{01|01}+\ket{10}\braket{10|01}+\ket{01}\braket{11|01} \\
+                &= \ket{00} 0 + \ket{11} 1 + \ket{10} 0 + \ket{10} 0 \\
+  &= \ket{11}
+\end{align*}
+  \end{block}
+  As you can see the first qubit remains unchanged while the second qubit changes from state 0 to 1.
+
+  \uncover<2->{\alert{Do a quick check of the other combinations of $CNOT$ and the states $\ket{00}, \ket{01},\ket{10},\ket{11}$.}}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Creating an entangled state}
+  \begin{block}{$CNOT$ on $\frac{1}{\sqrt{2}}\left( \ket{01}+\ket{00} \right)$ with qubit 1 as control}
+    
+    \scriptsize
+\begin{align*}
+  CNOT \frac{1}{\sqrt{2}}\left( \ket{01}+\ket{00} \right) &= \left( \ket{00}\bra{00}+\ket{11}\bra{01}+\ket{10}\bra{10}+\ket{01}\bra{11} \right)\frac{1}{\sqrt{2}}\left( \ket{01}+\ket{00} \right) \\
+  &= \frac{1}{\sqrt{2}}\left( \ket{11} + \ket{00} \right)
+\end{align*}
+    
+  \end{block}
+  \uncover<2->{\alert{We went from an none entangled state to an entangled state!}}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Creating an entangled state from scratch}
+  \centerline{	 	
+	\scalebox{1}{%
+\Qcircuit @C=1.4em @R=1.8em {
+	  \lstick{\ket{0}} &    \gate{H}     & \ctrl{1} & \qw \\
+	  \lstick{\ket{0}} &  \qw   \ & \targ & \qw
+        }}}
+    The diagram shows how we, using a Hadamard and a $CNOT$-operator, can produce the entangled state $\frac{1}{\sqrt{2}}(|11\rangle+|00\rangle)$. The dot in the $CNOT$-operator indicates the control qubit and the other end, which looks like a sight, points to the qubit which the CNOT operators does something to (the target qubit).
+    
+    \uncover<2->{The state went}
+
+    \uncover<2->{from $\ket{0}\ket{0}$}
+
+    \uncover<3->{to $\ket{0}\frac{1}{\sqrt{1}}\left( \ket{0}+\ket{1} \right)=\frac{1}{\sqrt{2}}\left( \ket{00}+\ket{01} \right)$}
+
+    \uncover<4->{to $CNOT \frac{1}{\sqrt{2}}\left( \ket{00}+\ket{01} \right)$}
+
+    \uncover<5->{to the final \emph{entangled} state $\frac{1}{\sqrt{2}}\left( \ket{11}+\ket{00} \right)$}
+\end{frame}
+\begin{frame}
+  \frametitle{Measuring entangled states}
+  \centerline{
+\scalebox{1.0}{
+\Qcircuit @C=1.0em @R=0.2em @!R { \\
+	 	\nghost{{q} :  } & \lstick{{q_1} : \  \ket{0}  } & \gate{\mathrm{H}} & \ctrl{1}  %\barrier[0em]{0}
+		 & \qw & \meter & \qw &\qw & \qw\\
+		 	 	\nghost{{q} :  } & \lstick{{q_2} : \  \ket{0}  } & \qw & \targ  %\barrier[0em]{0}
+		 & \qw & \qw & \meter & \qw & \qw\\
+	 	\nghost{\mathrm{{c} :  }} & \lstick{\mathrm{{c} :  \ \ \ \ \ \,  }} & % \lstick{/_{_{1}}} 
+		\cw & \cw & \cw & \dstick{_{_{\hspace{0.0em}0}}} \cw \ar @{<=} [-2,0] & \dstick{_{_{\hspace{0.0em}1}}} \cw \ar @{<=} [-1,0] & \cw & \cw\\
+\\ }}
+}
+In the figure we perform measurements on each of the two qubits which are in the state $\frac{1}{\sqrt{2}}(|11\rangle+|00\rangle)$ before the measurement.  The measurement on the first qubit will give 0 with $50\%$ probability. If the measurement gives 0, the state of the first qubit is $|0\rangle$ after the measurement. Therefore, the total state of the two qubits is $|00\rangle$ after we have measured 0 for the first qubit. We now measure the second qubit and get 0 with $100\%$ probability, since the second qubit is in the state $|0\rangle$.
 \end{frame}
 
 \begin{frame}
@@ -652,4 +885,21 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
   \includegraphics[width=10cm]{img/typing.jpg}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Measuring two (non-entangled) qubits}
+  Log in to \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-computing.ibm.com} and fire up exercise \emph{MeasurementTwoQubits.pynb}
+
+  \begin{center}
+\includegraphics[width=9cm]{img/ibmq-two-qubit.png}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Measurement of two (entangled) qubits}
+While still at \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-computing.ibm.com} work on exercise \emph{MeasurementEntangledQubits.pynb}
+
+  \begin{center}
+\includegraphics[width=9cm]{img/ibmq-entangled-qubits.png}
+    \end{center}
+\end{frame}
 \end{document}
