@@ -648,7 +648,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
   \item<7-> \only<7>{One} \only<8->{One, many}
   \end{itemize}
   \onslide<9->{This time around we are going to work with \textbf{two} qubit systems.}
-  \onslide<10-> {With two qubits we can do...}
+  \onslide<10-> {With two or more qubits we can do...}
 \end{frame}
 
 \begin{frame}
@@ -662,7 +662,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
   \begin{block}{Definition: Entanglement}
   Two qubits are entangled if the state of one qubit depends on the other. When two qubits are entangled it is \textit{impossible} to write the total state as a product of a state of the first qubits and a state of the second.
   \end{block}
-  \only<2>{Let us see some examples. (Read the examples in Chapter V section 10 in the notes, page 10 and 11)}
+  \uncover<2>{Let us see some examples. (Read the examples in Chapter V section 10 in the notes, page 10 and 11)}
 \end{frame}
 
 \begin{frame}
@@ -743,8 +743,8 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
     \end{column}
   \end{columns}
   \visible<1>{$\phantom{a}$}%
-  \only<2>{Measuring on any of the qubits.}%
-  \only<3>{Does not alter the other.}%
+  \only<2>{Measuring on any of the qubits}%
+  \only<3>{does not alter the other.}%
   \only<4->{The state remains unaltered.}
 \end{frame}
 
@@ -815,7 +815,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 \end{frame}
 \begin{frame}
   \frametitle{Let us check}
-  \begin{block}{$CNOT\ket{01}$ with first qubit as control}
+  \begin{block}{Example: $CNOT\ket{01}$ with first qubit as control}
     
 \begin{align*}
   CNOT \ket{01} &=\left( \ket{00}\bra{00}+\ket{11}\bra{01}+\ket{10}\bra{10}+\ket{01}\bra{11} \right) \ket{01} \\
@@ -831,7 +831,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 
 \begin{frame}
   \frametitle{Creating an entangled state}
-  \begin{block}{$CNOT$ on $\frac{1}{\sqrt{2}}\left( \ket{01}+\ket{00} \right)$ with qubit 1 as control}
+  \begin{block}{Example: $CNOT$ on $\frac{1}{\sqrt{2}}\left( \ket{01}+\ket{00} \right)$ with qubit 1 as control}
     
     \scriptsize
 \begin{align*}
@@ -910,9 +910,9 @@ While still at \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-
 \end{frame}
 
   \begin{frame}
-    \section{Grover's algorithm}
+    \section{\textbf{Grover} Baby! - Yeah!}
     \centering
-\includegraphics[width=5cm]{./img/arkivskab.jpg}
+\includegraphics[width=5cm]{./img/Lov-Kumar-Grover.jpg}
   \end{frame}
   \begin{frame}
     \frametitle{Grover's algorithm}
@@ -994,6 +994,15 @@ While still at \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-
   \end{frame}
   \begin{frame}
     \frametitle{Grover's algorithm with 8 drawers}
-    Read the example about Grover's algorithm
+    Read the example about Grover's algorithm for $N=8$ on page 22 and 23 in the notes.
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Grover's algorithm on IBM Q}
+    Now finally open and work on the exercise \emph{GroversAlgorithm.ipynb} on \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-computing.ibm.com}
+
+    \begin{center}
+      \includegraphics[width=10cm]{./img/ibm-q-grover.png}
+      \end{center}
   \end{frame}
 \end{document}

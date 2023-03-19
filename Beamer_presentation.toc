@@ -8,4 +8,4 @@
 \beamer@sectionintoc {8}{But what is the difference between entangled and none entangled states?}{119}{0}{8}
 \beamer@sectionintoc {9}{But what is the difference between entangled and none entangled states?}{120}{0}{9}
 \beamer@sectionintoc {10}{Operating on two qubits}{132}{0}{10}
-\beamer@sectionintoc {11}{Grover's algorithm}{152}{0}{11}
+\beamer@sectionintoc {11}{\textbf {Grover} Baby! - Yeah!}{152}{0}{11}
