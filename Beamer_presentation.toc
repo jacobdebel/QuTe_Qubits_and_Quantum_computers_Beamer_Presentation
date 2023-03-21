@@ -2,10 +2,10 @@
 \beamer@sectionintoc {2}{Bits and Qubits}{3}{0}{2}
 \beamer@sectionintoc {3}{Superposition}{26}{0}{3}
 \beamer@sectionintoc {4}{Measurements and Probabilities}{39}{0}{4}
-\beamer@sectionintoc {5}{Operators and Diagrams}{74}{0}{5}
-\beamer@sectionintoc {6}{IBM Q}{96}{0}{6}
-\beamer@sectionintoc {7}{Entanglement}{114}{0}{7}
-\beamer@sectionintoc {8}{But what is the difference between entangled and none entangled states?}{121}{0}{8}
-\beamer@sectionintoc {9}{But what is the difference between entangled and none entangled states?}{122}{0}{9}
-\beamer@sectionintoc {10}{Operating on two qubits}{134}{0}{10}
-\beamer@sectionintoc {11}{\textbf {Grover} Baby! - Yeah!}{154}{0}{11}
+\beamer@sectionintoc {5}{Operators and Diagrams}{79}{0}{5}
+\beamer@sectionintoc {6}{IBM Q}{101}{0}{6}
+\beamer@sectionintoc {7}{Entanglement}{119}{0}{7}
+\beamer@sectionintoc {8}{But what is the difference between entangled and none entangled states?}{126}{0}{8}
+\beamer@sectionintoc {9}{But what is the difference between entangled and none entangled states?}{127}{0}{9}
+\beamer@sectionintoc {10}{Operating on two qubits}{139}{0}{10}
+\beamer@sectionintoc {11}{\textbf {Grover} Baby! - Yeah!}{159}{0}{11}

@@ -6,7 +6,7 @@
 \usepackage[normalem]{ulem}
 % \setbeameroption{show notes on second screen}
 \usetheme[sectionpage=progressbar,numbering=counter,block=fill]{metropolis} % Use metropolis theme
-\title{Qubits And Quantum Computers}
+\title{Qubits and Quantum Computers}
 \date{}
 \author{QuTe - Copenhagen}
 \institute{Erasmus+}
@@ -111,7 +111,7 @@
       \includegraphics[width=\linewidth]{img/Complexity.pdf}
     \end{column}
   \end{columns}
-  \onslide<2> \Large Often the problems increases \emph{exponentially}.
+  \onslide<2> \Large Often the problems increase \emph{exponentially}.
 \end{frame}
 
 \begin{frame}
@@ -144,9 +144,9 @@
   \begin{columns}
     \begin{column}{0.4\linewidth}
       \begin{itemize}
-      \item<+-> Qubits are \emph{quantum systems}
-      \item<2-> Like Bohr's atomic model
-      \item<3-> Qubits are ``simple''. \emph{Only 2 states}
+      \item<+-> Qubits are \emph{quantum systems}.
+      \item<2-> Like Bohr's atomic model.
+      \item<3-> Qubits are ``simple''. \emph{Only 2 states}.
       \item<4-> You know, ``\textbf{real simple}'', like NV Centers...
       \end{itemize}
     \end{column}
@@ -380,10 +380,15 @@
   \begin{block}{Definition 5: Rules}
     \begin{equation*}\label{regneregler}
     \braket{0|0}=\braket{1|1}=1 \quad {\rm and} \quad 
-        \braket{1}=\braket{1|0}=0
+        \braket{0|1}=\braket{1|0}=0
     \end{equation*}
   \end{block}
-  \onslide<2>  If you are into vectors, our rules above correspond to taking the dot product of two vectors. The rules $\braket{0|0}=\braket{1|1}=1$ mean that the vectors $\ket{0}$ and $\ket{1}$ both have length 1, and the rules $\braket{0|1}=\braket{1|0}=0$ mean that $\ket{1}$ and $\ket{0}$ are perpendicular.
+  \uncover<2->{
+ 	\begin{itemize}
+    \item<2-|alert@2> Remember: We have defined $\ket{0}=\begin{pmatrix} 1\\0 \end{pmatrix}$ and $\ket{1}=\begin{pmatrix} 0\\1 \end{pmatrix}$. Therefore we can interpret $\braket{a|b}$ as the \textit{dot product} of the vectors $a$ and $b$. \\
+	\item<3-|alert@3> Show the rules by calculating the dot product of all combinations of $\ket{0}$ and $\ket{1}$.
+	\end{itemize}}  
+
 \end{frame}
 \begin{frame}
   \frametitle{Time to work}
@@ -401,8 +406,9 @@
   \frametitle{The measurement affects the state}
   \begin{columns}
     \begin{column}{0.5\linewidth}
+      \footnotesize
       \begin{itemize}
-      \item<1-> A qubit is in a state $\ket{\psi}$.
+      \item<1-> A qubit is in a state $\ket{\psi}$ (superposition).
       \item<2-> We do a measurement.
       \item<3-> and get 0.
         
@@ -410,11 +416,20 @@
       \item<5-> A qubit is in a state $\ket{\psi}$.
       \item<6-> We do a measurement.
       \item<7-> and get 1.
-      \item<8-|alert@8> What can we say about the state $\ket{\psi}$?
+      \item<8-|alert@8> What can we say about the probabilities?
       \item<9-|alert@9> Only that the probabilities $P_0$ and $P_1$ are non zero!
+      \item<10-|alert@10> What can we do to determine the probabilities?
+      \item<11-|alert@11> Take a huge amount of identical states...
+      % \item<12-|alert@12> and perform the same measurement again and again.
+      % \item<13-|alert@13> Now we have a distribution and can predict the probabilities.
       \end{itemize}
     \end{column}
     \begin{column}{0.5\linewidth}
+      \footnotesize
+      \begin{itemize}
+      \item<12-|alert@12> and perform the same measurement again and again.
+      \item<13-|alert@13> Now we have a distribution and can predict the probabilities.
+        \end{itemize}
             \includegraphics<1>[width=\linewidth]{img/euro-spinning.png}
             \includegraphics<2>[width=\linewidth]{img/coin-measure.png}
             \includegraphics<3-4>[width=\linewidth]{img/euro-0.jpg}
@@ -562,7 +577,7 @@
 
 \begin{frame}
   \frametitle{Example and exercise}
-  Read through the example concerning the Hadamard operator starting at the buttom of 16 continuing to page 17 in the notes.
+  Read through the example concerning the Hadamard operator starting at the bottom of 16 continuing to page 17 in the notes.
   Then do exercise 21 on page 17 in the notes.
 
   \begin{block}{Exercise 21}
@@ -668,7 +683,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 \end{frame}
 
 \begin{frame}
-  \frametitle{Two-qubit entanglement}
+  \frametitle{Two qubit entanglement}
   \begin{block}{Definition 8: Entanglement}
   Two qubits are entangled if the state of one qubit depends on the other. When two qubits are entangled it is \textit{impossible} to write the total state as a product of a state of the first qubits and a state of the second.
   \end{block}
@@ -715,8 +730,8 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
     Determine which of the following two-qubit states are entangled: 
          \begin{enumerate}
              \item $\ket{11}$
-             \item $\frac{1}{\sqrt{2}}(\ket{11}+\ket{00}$
-             \item $\frac{1}{\sqrt{2}}(\ket{10}+\ket{11}$ 
+             \item $\frac{1}{\sqrt{2}}(\ket{11}+\ket{00})$
+             \item $\frac{1}{\sqrt{2}}(\ket{10}+\ket{11})$ 
          \end{enumerate}
   \end{block}
 \end{frame}
@@ -929,7 +944,7 @@ While still at \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-
     \begin{columns}
       \begin{column}{0.6\linewidth}
         \begin{itemize}
-        \item<+-> You have put your smart phone in the cabinet.
+        \item<+-> You have put your smartphone in the cabinet.
         \item<+-> but you forgot the exact drawer!
         \item<+-> A classical computer would on average use $\frac{N}{2}$ searches.
         \item<+-> A quantum computer would on average use $\sqrt{N}$ searches using \emph{Grover's algorithm}.
@@ -957,9 +972,9 @@ While still at \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-
     \frametitle{Grover's algorithm with 4 drawers}
     \begin{itemize}
       
-    \item<1-> We assume that the phone is in drawer 11 (4)
-    \item<2-> First step - Prepare the state: $\ket{\psi}=\frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}+\ket{11} \right)$
-    \item<3-> Second step - act with the operator: $O = - \ket{11}\bra{11}$
+    \item<1-> We assume that the phone is in drawer 11 (the 4th drawer labeled number 3 as we count from 0).
+    \item<2-> First step - Prepare the state: $\ket{\psi}=\frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}+\ket{11} \right)$.
+    \item<3-> Second step - act with the operator: $O = - \ket{11}\bra{11}$.
       
 \begin{align*}
   O \ket{\psi} &= \left( -\ket{11}\bra{11} \right)\frac{1}{2}\left( \ket{00} + \ket{01}+\ket{10} + \ket{11} \right) \\
@@ -970,10 +985,10 @@ While still at \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-
   \begin{frame}
     \frametitle{Grover's algorithm with 4 drawers}
     \begin{itemize}
-    \item <1-> Third step - act with the operator:$\left( 2 \ket{\psi}\bra{\psi}- I \right)$
+    \item <1-> Third step - act with the operator:$\left( 2 \ket{\psi}\bra{\psi}- I \right)$.
       
-    \item<2-> The combined operator is called $G = \left( 2 \ket{\psi}\bra{\psi}-I \right) O$
-    \item<3-> $G\ket{\psi}=\left( 2 \ket{\psi}\bra{\psi}-I \right) O\ket{\psi}$
+    \item<2-> The combined operator is called $G = \left( 2 \ket{\psi}\bra{\psi}-I \right) O$.
+    \item<3-> $G\ket{\psi}=\left( 2 \ket{\psi}\bra{\psi}-I \right) O\ket{\psi}$.
       
     \item<4-> Fancy trick!
       
