@@ -402,18 +402,47 @@
     \end{block}
   }
 \end{frame}
+
+\begin{frame}
+  \frametitle{Collapse of the state}
+  \begin{columns}
+    \begin{column}{0.5\linewidth}
+      \begin{itemize}
+      \item<1-> A qubit is initially in a superposition state $\ket{\psi}$.
+      \item<2-> We do a measurement...
+      \item<3-> and get 0.
+      \item<4-> We do a new measurement on the same qubit in its current state...
+      \item<5-> and get 0...
+      \item<6-> and again...
+      \item<7-> and again.
+      \item<8-|alert@8> The initial state is collapsed.
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\linewidth}
+            \includegraphics<1>[width=\linewidth]{img/euro-spinning.png}
+            \includegraphics<2>[width=\linewidth]{img/coin-measure.png}
+            \includegraphics<3>[width=\linewidth]{img/euro-0.jpg}
+            \includegraphics<4>[width=\linewidth]{img/coin-measure.png}
+            \includegraphics<5->[width=\linewidth]{img/euro-0.jpg}
+    \end{column}
+  \end{columns}
+      \begin{block}{Definition 7}<9>
+        \footnotesize
+        If we measure and the result is 0, then the state of the qubit immediately after the measurement is the state $\ket{0}$. Likewise, if the measurement result is 1, then the state of the qubits immediately after the measurement is the state $\ket{1}$.
+      \end{block}
+\end{frame}
 \begin{frame}
   \frametitle{The measurement affects the state}
   \begin{columns}
     \begin{column}{0.5\linewidth}
       \footnotesize
       \begin{itemize}
-      \item<1-> A qubit is in a state $\ket{\psi}$ (superposition).
+      \item<1-> A qubit is in the state $\ket{\psi}$ (superposition).
       \item<2-> We do a measurement.
       \item<3-> and get 0.
         
       \item<4-> We do the same all over again.
-      \item<5-> A qubit is in a state $\ket{\psi}$.
+      \item<5-> The same qubit (or an identical one) is in the state $\ket{\psi}$ (superposition).
       \item<6-> We do a measurement.
       \item<7-> and get 1.
       \item<8-|alert@8> What can we say about the probabilities?
@@ -438,34 +467,6 @@
             \includegraphics<7->[width=\linewidth]{img/euro-1.jpg}
     \end{column}
   \end{columns}
-\end{frame}
-\begin{frame}
-  \frametitle{Collapse of the state}
-  \begin{columns}
-    \begin{column}{0.5\linewidth}
-      \begin{itemize}
-      \item<1-> A qubit is in a state $\ket{\psi}$.
-      \item<2-> We do a measurement.
-      \item<3-> and get 0.
-      \item<4-> We do a measurement again.
-      \item<5-> and get 0.
-      \item<6-> and again.
-      \item<7-> and again.
-      \item<8-|alert@8> The initial state is collapsed.
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.5\linewidth}
-            \includegraphics<1>[width=\linewidth]{img/euro-spinning.png}
-            \includegraphics<2>[width=\linewidth]{img/coin-measure.png}
-            \includegraphics<3>[width=\linewidth]{img/euro-0.jpg}
-            \includegraphics<4>[width=\linewidth]{img/coin-measure.png}
-            \includegraphics<5->[width=\linewidth]{img/euro-0.jpg}
-    \end{column}
-  \end{columns}
-      \begin{block}{Definition 7}<9>
-        \footnotesize
-        If we measure and the result is 0, then the state of the qubit immediately after the measurement is the state $\ket{0}$. Likewise, if the measurement result is 1, then the state of the qubits immediately after the measurement is the state $\ket{1}$.
-      \end{block}
 \end{frame}
 
   \begin{frame}
@@ -985,7 +986,7 @@ While still at \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-
   \begin{frame}
     \frametitle{Grover's algorithm with 4 drawers}
     \begin{itemize}
-    \item <1-> Third step - act with the operator:$\left( 2 \ket{\psi}\bra{\psi}- I \right)$.
+    \item <1-> Third step - act with the operator: $\left( 2 \ket{\psi}\bra{\psi}- I \right)$.
       
     \item<2-> The combined operator is called $G = \left( 2 \ket{\psi}\bra{\psi}-I \right) O$.
     \item<3-> $G\ket{\psi}=\left( 2 \ket{\psi}\bra{\psi}-I \right) O\ket{\psi}$.
