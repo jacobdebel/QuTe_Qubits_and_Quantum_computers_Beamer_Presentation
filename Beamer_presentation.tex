@@ -8,7 +8,7 @@
 \usetheme[sectionpage=progressbar,numbering=counter,block=fill]{metropolis} % Use metropolis theme
 \title{Qubits And Quantum Computers}
 \date{}
-\author{QuTe}
+\author{QuTe - Copenhagen}
 \institute{Erasmus+}
 \logo{
 \begin{tikzpicture}[overlay,remember picture]
@@ -41,7 +41,7 @@
     \begin{column}{0.5\linewidth}
       \begin{itemize}
       \item<1-> Two state system
-      \item<2-|alert@2> heads or tail
+      \item<2-|alert@2> heads or tails
       \item<3-|alert@3> up or down 
       \item<4-|alert@4> charge or no charge
       \item<5-|alert@5> 0 or 1 
@@ -103,7 +103,7 @@
   \begin{columns}
     \begin{column}{0.5\linewidth}
       \begin{block}{Definition 1}
-       Complexity of a calculation: the number of operations needed to find a solution to a given problem when the size of hte input is \emph{m}. 
+       Complexity of a calculation: the number of operations needed to find a solution to a given problem when the size of the input is \emph{m}. 
       \end{block}
     \end{column}
     \begin{column}{0.5\linewidth}
@@ -147,7 +147,7 @@
       \item<+-> Qubits are \emph{quantum systems}
       \item<2-> Like Bohr's atomic model
       \item<3-> Qubits are ``simple''. \emph{Only 2 states}
-      \item<4-> You know \emph{real simple} like NV Centers...
+      \item<4-> You know, ``\textbf{real simple}'', like NV Centers...
       \end{itemize}
     \end{column}
     \begin{column}{0.5\linewidth}
@@ -190,7 +190,7 @@
   \begin{block}<2>{Funny notation}
     A quantum system i described by a state which we denote $\ket{\dots}$.
 
-    It is called a \emph{ket}.
+    The symbol $\ket{\dots}$ is called a \emph{ket}.
   \end{block}
 \end{frame}
 
@@ -199,8 +199,8 @@
     \begin{columns}
       \begin{column}{0.5\linewidth}
         \begin{itemize}
-        \item<1-> Together with a ket, $\ket{\dots}$, there is a 
-        \item<2-> \emph{bra}, $\bra{...}$
+        \item<1-> A ket, $\ket{\dots}$, comes together with a 
+        \item<2-> \emph{bra}, $\bra{\dots}$
         \item<3-> Combining them we get a \emph{bra(c)ket}
         \item<4-> or bra(c)ket, $\braket{\dots | \dots}$, like in \emph{parenthesis}
         \end{itemize}
@@ -266,13 +266,13 @@
 
 \begin{frame}
   \frametitle{Superposition and normalisation}
-  \begin{block}{Definition: Superposition}
+  \begin{block}{Definition 2: Superposition}
     $\ket{\psi}=\alpha \ket{0}+\beta \ket{1}$
 
     $\alpha$ and $\beta$ can be choosen arbitrarily as long it is \textbf{normalised}.
   \end{block}
   
-  \begin{block}{Definition: Normalisation}
+  \begin{block}{Definition 3: Normalisation}
     The qubit state $\ket{\psi} = \alpha \ket{0} + \beta \ket{1}$ is normalised if $\alpha^2+\beta^2=1$. 
   \end{block}
 
@@ -283,12 +283,12 @@
   \frametitle{A unit vector}
   \begin{columns}
     \begin{column}{0.5\linewidth}
+      You can think of the kets as unit vectors.
       \begin{itemize}
       \item $\ket{0} =
         \begin{pmatrix}
           1 \\0 
-        \end{pmatrix}
-        $ Unit vector along x-axis.
+        \end{pmatrix}$ Unit vector along x-axis.
       \item $\ket{1} =
         \begin{pmatrix}
          0 \\ 1 
@@ -300,10 +300,10 @@
       \includegraphics[width=\linewidth]{img/unit-circle.jpg}
     \end{column}
   \end{columns}
-  \onslide<2> Do exercise 7 on page 4 in the notes.
+  \uncover<2>{\alert{Do exercise 7 on page 4 in the notes.}}
 \end{frame}
 \begin{frame}
-  \section{Measurement and Probability}
+  \section{Measurements and Probabilities}
 
   \centering
   \includegraphics[width=6cm]{img/coin-flip.png}
@@ -313,8 +313,8 @@
   \begin{columns}
     \begin{column}{0.4\linewidth}
       \begin{itemize}
-      \item<1-|alert@1> If the qubit is in the state $\ket{\psi}=\ket{0}$
-      \item<2-|alert@2> and the quantum computer performs a measurement
+      \item<1-|alert@1> If the qubit is in the state $\ket{\psi}=\ket{0}$.
+      \item<2-|alert@2> and the quantum computer performs a measurement.
       \item<3-|alert@3> we get 0 with 100\% probability.
       \end{itemize}
     \end{column}
@@ -331,8 +331,8 @@
   \begin{columns}
     \begin{column}{0.4\linewidth}
       \begin{itemize}
-      \item<1-|alert@1> If the qubit is in the state $\ket{\psi}=\ket{1}$
-      \item<2-|alert@2> and the quantum computer performs a measurement
+      \item<1-|alert@1> If the qubit is in the state $\ket{\psi}=\ket{1}$.
+      \item<2-|alert@2> and the quantum computer performs a measurement.
       \item<3-|alert@3> we get 1 with 100\% probability.
       \end{itemize}
     \end{column}
@@ -349,7 +349,7 @@
   \begin{columns}
     \begin{column}{0.4\linewidth}
       \begin{itemize}
-      \item<1-|alert@1> If the qubit now is in the state $\ket{\psi}=\alpha \ket{0}+\beta \ket{1}$
+      \item<1-|alert@1> If the qubit now is in the state $\ket{\psi}=\alpha \ket{0}+\beta \ket{1}$.
       \item<2-|alert@2> and the quantum computer performs a measurement.
       \item<3-|alert@3> we get \textbf{either} 0 or 1 and \textbf{never} something in between.
       \item<4-|alert@4> We cannot predict the outcome. Only calculate the probabilities!
@@ -374,10 +374,10 @@
 
 \begin{frame}
   \frametitle{Probabilities}
-  \begin{block}{Definition: Probability}
+  \begin{block}{Definition 4: Probability}
     If  our qubit is in the state $|\psi\rangle$ then the probability of measuring 0 is given by $P_0 = (\langle0|\psi\rangle)^2$ and the probability of measuring 1 is given by $P_1 = (\langle1|\psi\rangle)^2$.
   \end{block}
-  \begin{block}{Rules}
+  \begin{block}{Definition 5: Rules}
     \begin{equation*}\label{regneregler}
     \braket{0|0}=\braket{1|1}=1 \quad {\rm and} \quad 
         \braket{1}=\braket{1|0}=0
@@ -388,20 +388,28 @@
 \begin{frame}
   \frametitle{Time to work}
   Read through the examples, remarks and do the exercises on page 7 and 8 in the notes.
+
+  \uncover<2->{
+    When you are done, you should realise that:
+    
+    \begin{block}{Definition 6: Alternative to definition 4}
+      Probability: If our qubit is in the state $\ket{\psi}=\alpha \ket{0}+\beta \ket{1}$ then the probability of measuring 0 is given by $P_0=\alpha^2$ and the probability of measuring 1 by $P_1=\beta^2$.
+    \end{block}
+  }
 \end{frame}
 \begin{frame}
   \frametitle{The measurement affects the state}
   \begin{columns}
     \begin{column}{0.5\linewidth}
       \begin{itemize}
-      \item<1-> A qubit is in a state $\ket{\psi}$
-      \item<2-> We do a measurement
-      \item<3-> and get 0
+      \item<1-> A qubit is in a state $\ket{\psi}$.
+      \item<2-> We do a measurement.
+      \item<3-> and get 0.
         
-      \item<4-> We do the same all over again
-      \item<5-> A qubit is in a state $\ket{\psi}$
-      \item<6-> We do a measurement
-      \item<7-> and get 1
+      \item<4-> We do the same all over again.
+      \item<5-> A qubit is in a state $\ket{\psi}$.
+      \item<6-> We do a measurement.
+      \item<7-> and get 1.
       \item<8-|alert@8> What can we say about the state $\ket{\psi}$?
       \item<9-|alert@9> Only that the probabilities $P_0$ and $P_1$ are non zero!
       \end{itemize}
@@ -421,13 +429,13 @@
   \begin{columns}
     \begin{column}{0.5\linewidth}
       \begin{itemize}
-      \item<1-> A qubit is in a state $\ket{\psi}$
-      \item<2-> We do a measurement
-      \item<3-> and get 0
-      \item<4-> We do a measurement again
-      \item<5-> and get 0
-      \item<6-> and again
-      \item<7-> and again
+      \item<1-> A qubit is in a state $\ket{\psi}$.
+      \item<2-> We do a measurement.
+      \item<3-> and get 0.
+      \item<4-> We do a measurement again.
+      \item<5-> and get 0.
+      \item<6-> and again.
+      \item<7-> and again.
       \item<8-|alert@8> The initial state is collapsed.
       \end{itemize}
     \end{column}
@@ -439,7 +447,7 @@
             \includegraphics<5->[width=\linewidth]{img/euro-0.jpg}
     \end{column}
   \end{columns}
-      \begin{block}{Definition}<9>
+      \begin{block}{Definition 7}<9>
         \footnotesize
         If we measure and the result is 0, then the state of the qubit immediately after the measurement is the state $\ket{0}$. Likewise, if the measurement result is 1, then the state of the qubits immediately after the measurement is the state $\ket{1}$.
       \end{block}
@@ -461,7 +469,7 @@
 \begin{frame}
   \frametitle{Single Qubit operators}
   We want to do something with the qubits! We do that with \textbf{operators}.
-  \begin{block}{Definition: Operator}
+  \begin{block}{Definition 9: Operator}
     An operator acts on a state and returns a state.
   \end{block}
 \end{frame}
@@ -480,7 +488,7 @@
   
 \begin{frame}
   \frametitle{The Z operator}
-  \begin{block}{Definition: The operator Z}
+  \begin{block}{Definition 10: The operator Z}
     $Z= \ket{0}\bra{0}-\ket{1}\bra{1}$
   \end{block}
     \centerline{
@@ -496,12 +504,12 @@
 \item<4-|alert@4> What does $Z$ do?
 \end{itemize}
 \begin{block}{Exercise 15 in the notes.}<4->
-  Use the definition of $Z$, i.e. that $Z=|0\rangle\langle0|-|1\rangle\langle1|$, and let it act on $\ket{0}$ and $\ket{1}$. Show that the result is the same as depicted on the figure.
+  Use the definition of $Z$, i.e. that $Z=|0\rangle\langle0|-|1\rangle\langle1|$, and let it act on $\ket{0}$ and $\ket{1}$. Show that the result is the same as depicted in the figure.
 \end{block}
 \end{frame}
 \begin{frame}
   \frametitle{The X operator}
-  \begin{block}{Definition: The operator X}
+  \begin{block}{Definition 11: The operator X}
     $X = \ket{1}\bra{0}+\ket{0}\bra{1}$
   \end{block}
 \centerline{
@@ -518,7 +526,7 @@
 
 \begin{frame}
   \frametitle{The Hadamard operator, $H$}
-  \begin{block}{Definition: The operator $H$}
+  \begin{block}{Definition 12: The operator $H$}
     $H = \frac{1}{\sqrt{2}}\left( \ket{0}\bra{0}+ \ket{0}\bra{1} +\ket{1}\bra{0}-\ket{1}\bra{1} \right)$
   \end{block}	\centerline{
 	\Qcircuit @C=1em @R=.7em {
@@ -527,7 +535,7 @@
 }
 }
 \begin{itemize}
-\item<2-|alert@2> Work through the exercises 17, 18, 19 in the notes. Consult the surrounding examples if in doubt or if you need a hint.
+\item<2-|alert@2> Work through the exercises 17, 18, 19 on page 14 and 15 in the notes. Consult the surrounding examples if in doubt or if you need a hint.
 \end{itemize}
 \end{frame}
 
@@ -554,8 +562,8 @@
 
 \begin{frame}
   \frametitle{Example and exercise}
-  Read through the example concerning the Hadamard operator on page 17 and 18 in the notes.
-  Then do exercise 21 on page 18 in the notes.
+  Read through the example concerning the Hadamard operator starting at the buttom of 16 continuing to page 17 in the notes.
+  Then do exercise 21 on page 17 in the notes.
 
   \begin{block}{Exercise 21}
    \centerline{
@@ -630,7 +638,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
      \node[align=left,anchor=west,red, thick] at (-3.8,0.5) {RELATED.};
     \end{tikzpicture}
   \end{center}
-  \uncover<2->{Monty Python $\to$ IBM Q \emph{is} related $\to$ IBM Q uses \emph{Python} $\to$ Python is named after Monty Python, because programming should be fun!}
+  \uncover<2->{Monty Python $\to$ IBM Q \emph{is} related $\to$ IBM Q uses \emph{Python} $\to$ Python is named after Monty Python, \uncover<3>{\alert{because programming should be fun!}}}
 \end{frame}
 
 \begin{frame}
@@ -649,6 +657,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
   \item<7-> \only<7>{One} \only<8->{One, many}
   \end{itemize}
   \onslide<9->{This time around we are going to work with \textbf{two} qubit systems.}
+
   \onslide<10-> {With two or more qubits we can do...}
 \end{frame}
 
@@ -660,7 +669,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 
 \begin{frame}
   \frametitle{Two-qubit entanglement}
-  \begin{block}{Definition: Entanglement}
+  \begin{block}{Definition 8: Entanglement}
   Two qubits are entangled if the state of one qubit depends on the other. When two qubits are entangled it is \textit{impossible} to write the total state as a product of a state of the first qubits and a state of the second.
   \end{block}
   \uncover<2>{Let us see some examples. (Read the examples in Chapter V section 10 in the notes, page 10 and 11)}
@@ -683,7 +692,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 \begin{frame}
   \frametitle{Entangled two qubit systems}
   \begin{block}{Example: Entangled qubits}
-    Two qubits are in the state $\frac{1}{\sqrt{2}}\left( \ket{10}+\ket{01} \right)$. They are \emph{entangled} because the state of the first qubit depends on the state of the second: If the first qubit is 1 then the other is 0, and vice versa (if the first qubit is 0 then the second i 1). To put it differently, you can no twrite the total state $\frac{1}{\sqrt{2}}\left( \ket{10}+\ket{01} \right)$ as a product of two states $\ket{\dots}\ket{\dots}$.
+    Two qubits are in the state $\frac{1}{\sqrt{2}}\left( \ket{10}+\ket{01} \right)$. They are \emph{entangled} because the state of the first qubit depends on the state of the second: If the first qubit is 1 then the other is 0, and vice versa (if the first qubit is 0 then the second i 1). To put it differently, you can not write the total state $\frac{1}{\sqrt{2}}\left( \ket{10}+\ket{01} \right)$ as a product of two states $\ket{\dots}\ket{\dots}$.
   \end{block}
 
   \begin{block}{Another example}
@@ -699,10 +708,10 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 
 \begin{frame}
   \frametitle{Exercises}
-  \begin{block}{Exercise 11}
+  \begin{block}{Exercise 11 page 10 in the notes.}
     Two qubits are in the state $\ket{01}$. What is the state of  qubit 1? what about qubit 2?
   \end{block}
-  \begin{block}{Exercise 12}
+  \begin{block}{Exercise 12 page 11 in the notes.}
     Determine which of the following two-qubit states are entangled: 
          \begin{enumerate}
              \item $\ket{11}$
@@ -773,7 +782,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
     \end{column}
   \end{columns}
   \visible<1>{$\phantom{a}$}%
-  \only<2>{We measure qubit 1}%
+  \only<2>{We measure qubit 1.}%
   \only<3>{and get 0.}%
   \only<4>{Qubit 1 is now in state $\ket{0}$ forcing the total state to be $\ket{10}$}%
   \only<5>{The measurement on qubit 1 affects qubit 2 instantaneously.}
@@ -789,10 +798,10 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 
 \begin{frame}
   \frametitle{Untangle these exercises}
-  \begin{block}{Exercise 13}
+  \begin{block}{Exercise 13 page 11 in the notes.}
     Two qubits are in the state $\frac{1}{\sqrt{2}}(\ket{00}+\ket{11})$. What is the probability of a measurement on the first qubit giving 0 and 1, respectively. If we measure the first qubit, and the outcome is 1, what is the total state of the two qubits immediately after the measurement?
   \end{block}
-  \begin{block}{Exercise 14}
+  \begin{block}{Exercise 14 page 12 in the notes.}
    Two qubits are in the state $\frac{1}{5}(3\ket{01}-4\ket{10}$. Will a measurement on the second qubit affect the state of the first qubit? 
   \end{block}
 \end{frame}
@@ -803,7 +812,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 \end{frame}
 \begin{frame}
   \frametitle{The CNOT gate}
-  \begin{block}{The CNOT operator}
+  \begin{block}{Definition 13: The CNOT operator}
     First qubit is the control bit
  $  \ \ \ \ CNOT=\ket{00}\bra{00}+\ket{11}\bra{01}+\ket{10}\bra{10}+\ket{01}\bra{11}$
  \\ Second qubit is the control bit $ \ CNOT=\ket{00}\bra{00}+\ket{01}\bra{01}+\ket{11}\bra{10}+\ket{10}\bra{11}$
@@ -825,7 +834,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
   &= \ket{11}
 \end{align*}
   \end{block}
-  As you can see the first qubit remains unchanged while the second qubit changes from state 0 to 1.
+  As you can see the first qubit remains unchanged while the second qubit changes from state $\ket{0}$ to $\ket{1}$.
 
   \uncover<2->{\alert{Do a quick check of the other combinations of $CNOT$ and the states $\ket{00}, \ket{01},\ket{10},\ket{11}$.}}
 \end{frame}
@@ -854,7 +863,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
         }}}
     The diagram shows how we, using a Hadamard and a $CNOT$-operator, can produce the entangled state $\frac{1}{\sqrt{2}}(|11\rangle+|00\rangle)$. The dot in the $CNOT$-operator indicates the control qubit and the other end, which looks like a sight, points to the qubit which the CNOT operators does something to (the target qubit).
     
-    \uncover<2->{The state went}
+    \uncover<2->{The state goes}
 
     \uncover<2->{from $\ket{0}\ket{0}$}
 
