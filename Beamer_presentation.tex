@@ -412,10 +412,8 @@
       \item<2-> We do a measurement...
       \item<3-> and get 0.
       \item<4-> We do a new measurement on the same qubit in its current state...
-      \item<5-> and get 0...
-      \item<6-> and again...
-      \item<7-> and again.
-      \item<8-|alert@8> The initial state is collapsed.
+      \item<5-> and get 0.
+      \item<6-|alert@6> The initial state is collapsed.
       \end{itemize}
     \end{column}
     \begin{column}{0.5\linewidth}
@@ -438,17 +436,16 @@
       \footnotesize
       \begin{itemize}
       \item<1-> A qubit is in the state $\ket{\psi}$ (superposition).
-      \item<2-> We do a measurement.
+      \item<2-> We do a measurement...
       \item<3-> and get 0.
         
-      \item<4-> We do the same all over again.
-      \item<5-> The same qubit (or an identical one) is in the state $\ket{\psi}$ (superposition).
-      \item<6-> We do a measurement.
-      \item<7-> and get 1.
-      \item<8-|alert@8> What can we say about the probabilities?
-      \item<9-|alert@9> Only that the probabilities $P_0$ and $P_1$ are non zero!
-      \item<10-|alert@10> What can we do to determine the probabilities?
-      \item<11-|alert@11> Take a huge amount of identical states...
+      \item<4-> We do the same all over again on \emph{another} (identical) qubit in the same state $\ket{\psi}$ (superposition).
+      \item<5-> We do a measurement...
+      \item<6-> and get 1.
+      \item<7-|alert@7> What can we say about the probabilities?
+      \item<8-|alert@8> Only that the probabilities $P_0$ and $P_1$ are non zero!
+      \item<9-|alert@9> What can we do to determine the probabilities?
+      \item<10-|alert@10> Take a huge amount of identical states...
       % \item<12-|alert@12> and perform the same measurement again and again.
       % \item<13-|alert@13> Now we have a distribution and can predict the probabilities.
       \end{itemize}
@@ -456,8 +453,8 @@
     \begin{column}{0.5\linewidth}
       \footnotesize
       \begin{itemize}
-      \item<12-|alert@12> and perform the same measurement again and again.
-      \item<13-|alert@13> Now we have a distribution and can predict the probabilities.
+      \item<11-|alert@11> and perform the same measurement on each of them.
+      \item<12-|alert@12> Now we have a distribution and can predict the probabilities.
         \end{itemize}
             \includegraphics<1>[width=\linewidth]{img/euro-spinning.png}
             \includegraphics<2>[width=\linewidth]{img/coin-measure.png}
