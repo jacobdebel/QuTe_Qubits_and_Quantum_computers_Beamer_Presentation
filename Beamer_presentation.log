@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.1.14)  22 MAR 2023 08:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.1.14)  22 MAR 2023 08:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2227,9 +2227,9 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 642.
 File: img/completely-different.png Graphic file (type png)
 <use img/completely-different.png>
 Package pdftex.def Info: img/completely-different.png  used on input line 655.
-(pdftex.def)             Requested size: 213.39566pt x 168.58397pt.
+(pdftex.def)             Requested size: 204.85974pt x 161.83842pt.
 
-Overfull \vbox (14.70854pt too high) detected at line 655
+Overfull \vbox (7.963pt too high) detected at line 655
  []
 
 File: img/erasmus_plus.jpg Graphic file (type jpg)
@@ -2242,9 +2242,9 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 655.
 File: img/completely-different.png Graphic file (type png)
 <use img/completely-different.png>
 Package pdftex.def Info: img/completely-different.png  used on input line 655.
-(pdftex.def)             Requested size: 213.39566pt x 168.58397pt.
+(pdftex.def)             Requested size: 204.85974pt x 161.83842pt.
 
-Overfull \vbox (14.70854pt too high) detected at line 655
+Overfull \vbox (7.963pt too high) detected at line 655
  []
 
 File: img/erasmus_plus.jpg Graphic file (type jpg)
@@ -2257,9 +2257,9 @@ Package pdftex.def Info: img/erasmus_plus.jpg  used on input line 655.
 File: img/completely-different.png Graphic file (type png)
 <use img/completely-different.png>
 Package pdftex.def Info: img/completely-different.png  used on input line 655.
-(pdftex.def)             Requested size: 213.39566pt x 168.58397pt.
+(pdftex.def)             Requested size: 204.85974pt x 161.83842pt.
 
-Overfull \vbox (14.70854pt too high) detected at line 655
+Overfull \vbox (7.963pt too high) detected at line 655
  []
 
 File: img/erasmus_plus.jpg Graphic file (type jpg)
@@ -2971,7 +2971,7 @@ Package rerunfilecheck Info: File `Beamer_presentation.out' has not changed.
 Here is how much of TeX's memory you used:
  29203 strings out of 479305
  562442 string characters out of 5872607
- 877175 words of memory out of 5000000
+ 877176 words of memory out of 5000000
  46251 multiletter control sequences out of 15000+600000
  484625 words of font info for 84 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
@@ -2993,7 +2993,7 @@ share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfss1000.pfb></usr/share/texmf/fonts/type1/public/xypic/xyatip10.pfb></usr/shar
 e/texmf/fonts/type1/public/xypic/xybtip10.pfb>
-Output written on Beamer_presentation.pdf (178 pages, 9533142 bytes).
+Output written on Beamer_presentation.pdf (178 pages, 9533148 bytes).
 PDF statistics:
  1279 PDF objects out of 1440 (max. 8388607)
  981 compressed objects within 10 object streams
