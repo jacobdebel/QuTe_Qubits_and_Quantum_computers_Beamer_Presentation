@@ -58,9 +58,12 @@
 
       \includegraphics<4>[height=3cm]{img/ssd.png}
 
+      \only<4>{\footnotemark}
+
       \onslide<5> \centering \Huge 0 1 
     \end{column}
   \end{columns}
+  \only<4>{\footnotetext{Source: \url{https://www.cactus-tech.com/resources/blog/details/solid-state-drive-primer-1-the-basic-nand-flash-cell/}}}
 \end{frame}
 
 \begin{frame}
@@ -134,7 +137,7 @@
    Estimate the time it would take you to try all of the possible combinations of the clothes (including accessories!) you choose between each morning. 
       \end{column}
       \begin{column}{0.3\linewidth}
-      \includegraphics[width=\linewidth]{img/wardrobe.png}
+      \includegraphics[width=0.8\linewidth]{./img/wardrobe.jpeg}
       \end{column}
     \end{columns}
   \end{block}
@@ -155,11 +158,14 @@
 
       \includegraphics<2-3>[width=6cm]{img/bohrmodel.png}
 
+      \only<2-3>{\footnotemark}
+
       \includegraphics<4->[width=3cm]{img/nvcenter.png}
 
       \includegraphics<4->[width=3cm]{img/nvtransitions.png}
     \end{column}
   \end{columns}
+  \only<2-3>{\footnotetext{Source: \url{https://www.astronomicalreturns.com/p/section-15-quantum-mechanics.html}}}
 \end{frame}
 
 \begin{frame}
@@ -208,7 +214,7 @@
       \begin{column}{0.4\linewidth}
         \centering
         \includegraphics<2>[width=4cm]{img/bra.jpg}
-        \includegraphics<3>[width=4cm]{img/braces.png}
+        \includegraphics<3>[width=4cm]{img/braces.jpg}
         \includegraphics<4->[width=1cm]{img/brackets.png}
       \end{column}
     \end{columns}
@@ -217,7 +223,7 @@
 \begin{frame}
 \section{Superposition}
 \centering
-\includegraphics[width=5cm]{img/superman.jpg}
+\includegraphics[width=5cm]{img/superman_clark_kent.jpeg}
 \end{frame}
 
 \begin{frame}
@@ -233,11 +239,11 @@
     \end{column}
     \begin{column}{0.5\linewidth}
 
-      \includegraphics<2>[width=\linewidth]{img/clark-kent.png}
+      \includegraphics<2>[width=\linewidth]{img/clark_kent.png}
 
-      \includegraphics<3>[width=\linewidth]{img/superman.png}
+      \includegraphics<3>[width=\linewidth]{img/superman_new.png}
 
-      \includegraphics<4>[width=\linewidth]{img/superman-superposition.png}
+      \includegraphics<4>[width=\linewidth]{img/superman_clark_kent.jpeg}
     \end{column}
   \end{columns}
 \end{frame}
@@ -259,7 +265,7 @@
 
       \includegraphics<3>[width=\linewidth]{img/euro-1.jpg}
 
-      \includegraphics<4>[width=\linewidth]{img/euro-spinning.png}
+      \includegraphics<4>[width=\linewidth]{img/coin_spinning.jpg}
     \end{column}
   \end{columns}
 \end{frame}
@@ -359,7 +365,7 @@
     \begin{column}{0.5\linewidth}
       \centering
 
-      \includegraphics<1>[width=\linewidth]{img/euro-spinning.png}
+      \includegraphics<1>[width=\linewidth]{img/coin_spinning.jpg}
 
       \includegraphics<2>[width=\linewidth]{img/coin-measure.png}
 
@@ -417,14 +423,14 @@
       \end{itemize}
     \end{column}
     \begin{column}{0.5\linewidth}
-            \includegraphics<1>[width=\linewidth]{img/euro-spinning.png}
+            \includegraphics<1>[width=\linewidth]{img/coin_spinning.jpg}
             \includegraphics<2>[width=\linewidth]{img/coin-measure.png}
             \includegraphics<3>[width=\linewidth]{img/euro-0.jpg}
             \includegraphics<4>[width=\linewidth]{img/coin-measure.png}
             \includegraphics<5->[width=\linewidth]{img/euro-0.jpg}
     \end{column}
   \end{columns}
-      \begin{block}{Definition 7}<9>
+      \begin{block}{Definition 7}<7>
         \footnotesize
         If we measure and the result is 0, then the state of the qubit immediately after the measurement is the state $\ket{0}$. Likewise, if the measurement result is 1, then the state of the qubits immediately after the measurement is the state $\ket{1}$.
       \end{block}
@@ -456,12 +462,12 @@
       \item<11-|alert@11> and perform the same measurement on each of them.
       \item<12-|alert@12> Now we have a distribution and can predict the probabilities.
         \end{itemize}
-            \includegraphics<1>[width=\linewidth]{img/euro-spinning.png}
+            \includegraphics<1>[width=\linewidth]{img/coin_spinning.jpg}
             \includegraphics<2>[width=\linewidth]{img/coin-measure.png}
-            \includegraphics<3-4>[width=\linewidth]{img/euro-0.jpg}
-            \includegraphics<5>[width=\linewidth]{img/euro-spinning.png}
-            \includegraphics<6>[width=\linewidth]{img/coin-measure.png}
-            \includegraphics<7->[width=\linewidth]{img/euro-1.jpg}
+            \includegraphics<3>[width=\linewidth]{img/euro-0.jpg}
+            \includegraphics<4>[width=\linewidth]{img/coin_spinning.jpg}
+            \includegraphics<5>[width=\linewidth]{img/coin-measure.png}
+            \includegraphics<6->[width=\linewidth]{img/euro-1.jpg}
     \end{column}
   \end{columns}
 \end{frame}
@@ -593,14 +599,14 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
   \end{block}
 \end{frame}
 \begin{frame}
+  \frametitle{And now for something completely different}
   \centering
-  \includegraphics[width=8cm]{img/completely-different.png}
-  \uncover<2->{
-    \begin{tikzpicture}[overlay, remember picture]
-     \draw[red,thick] (-4.1,0.9) -- (-2.3,0.9);
-     \node[align=left,anchor=west,red, thick] at (-4.1,0.7) {RELATED.};
-    \end{tikzpicture}
-      }
+  \includegraphics[width=6cm]{img/completely_different.jpeg}
+\end{frame}
+\begin{frame}
+  \frametitle{And now for something completely \sout{different} related \footnote{Google is your friend :)}}
+  \centering
+  \includegraphics[width=6cm]{img/completely_different.jpeg}
 \end{frame}
 \begin{frame}
   \section{IBM Q}
@@ -642,16 +648,12 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 \end{frame}
 
 \begin{frame}
-  \frametitle{Pun intended!}
- Did you get the pun? 
+  \frametitle{Pun intended! Did you get it?}
+ \footnotesize Now to something completely \sout{different} related.
   \begin{center}
-  \includegraphics[width=7.2cm]{img/completely-different.png}
-    \begin{tikzpicture}[overlay, remember picture]
-     \draw[red,thick] (-3.6,0.8) -- (-2.3,0.8);
-     \node[align=left,anchor=west,red, thick] at (-3.8,0.5) {RELATED.};
-    \end{tikzpicture}
+  \includegraphics[width=6cm]{img/completely_different.jpeg}
   \end{center}
-  \uncover<2->{Monty Python $\to$ IBM Q \emph{is} related $\to$ IBM Q uses \emph{Python} $\to$ Python is named after Monty Python, \uncover<3>{\alert{because programming should be fun!}}}
+  \uncover<2->{\footnotesize The quote is from Monty Python $\to$ IBM Q \emph{is} related $\to$ IBM Q uses \emph{Python} $\to$ Python is named after Monty Python, \uncover<3>{\alert{because programming should be fun!}}}
 \end{frame}
 
 \begin{frame}
@@ -660,7 +662,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
   \includegraphics[width=10cm]{img/back-to-school.png}
 \end{frame}
 \begin{frame}
-  \frametitle{One, Many}
+  \frametitle{One,\sout{two,} too Many}
   How many is \emph{many?}
   \begin{itemize}
   \item<2->\only<2>{One} \only<3>{One, two} \only<4>{One, two, many} \only<5->{\sout{One, two, many}}
@@ -716,7 +718,8 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
 \begin{frame}
   \frametitle{Time for some exercise}
   \centering
-  \includegraphics[width=7cm]{img/exercise-meme.jpg}
+  % \includegraphics[width=7cm]{img/exercise-meme.jpg}
+  \includegraphics[width=7cm]{img/exercise.jpeg}
 \end{frame}
 
 \begin{frame}
@@ -780,7 +783,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
       \begin{center}
         Qubit 2
 
-        \includegraphics<1-2>[height=3cm]{img/euro-spinning.png}
+        \includegraphics<1-2>[height=3cm]{img/coin_spinning.jpg}
         \includegraphics<3->[height=3cm]{img/euro-1.jpg}
         \end{center}
     \end{column}
@@ -788,7 +791,7 @@ Our qubit start out in the state $\ket{0}$. Explain what the state of our qubit 
       \begin{center}
         Qubit 1
 
-        \includegraphics<1>[height=3cm]{img/euro-spinning.png}
+        \includegraphics<1>[height=3cm]{img/coin_spinning.jpg}
         \includegraphics<2>[height=3cm]{img/coin-measure.png}
         \includegraphics<3->[height=3cm]{img/euro-0.jpg}
         \end{center}
@@ -905,7 +908,7 @@ In the figure we perform measurements on each of the two qubits which are in the
 \begin{frame}
   \frametitle{Back to IBM Q}
   \centering
-  \includegraphics[width=10cm]{img/typing.jpg}
+  \includegraphics[width=8cm]{img/typing.jpg}
 \end{frame}
 
 \begin{frame}
@@ -925,107 +928,108 @@ While still at \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-
 \includegraphics[width=9cm]{img/ibmq-entangled-qubits.png}
     \end{center}
 \end{frame}
-\begin{frame}
-  \centering
-  \includegraphics[width=7cm]{img/groovy-baby.jpeg}
 
-  \uncover<2>{\alert{NO, NO!}}
-\end{frame}
+% \begin{frame}
+%   \centering
+%   \includegraphics[width=7cm]{img/groovy-baby.jpeg}
 
-  \begin{frame}
-    \section{\textbf{Grover} Baby! - Yeah!}
-    \centering
-\includegraphics[width=5cm]{./img/Lov-Kumar-Grover.jpg}
-  \end{frame}
-  \begin{frame}
-    \frametitle{Grover's algorithm}
-    \begin{columns}
-      \begin{column}{0.6\linewidth}
-        \begin{itemize}
-        \item<+-> You have put your smartphone in the cabinet.
-        \item<+-> but you forgot the exact drawer!
-        \item<+-> A classical computer would on average use $\frac{N}{2}$ searches.
-        \item<+-> A quantum computer would on average use $\sqrt{N}$ searches using \emph{Grover's algorithm}.
-        \item<+-> Let us retrieve the phone using Grover's algorithm.
-        \end{itemize}
-      \end{column}
-      \begin{column}{0.4\linewidth}
-    \centering
-\includegraphics[width=0.8\linewidth]{./img/arkivskab.jpg}
-      \end{column}
-    \end{columns}
-  \end{frame}
-  \begin{frame}
-    \frametitle{Grover's algorithm with 4 drawers}
-    \begin{itemize}
-    \item 4 drawers can be represented by $n=2$ qubits in the special states $\ket{00}, \ket{01}, \ket{10}, \ket{11}$.
-    \item 00, 01, 10, 11 in binary are simply 0, 1, 2, 3 in decimal numbers \uncover<2->{\alert{if you recall.}}
-    \end{itemize}
+%   \uncover<2>{\alert{NO, NO!}}
+% \end{frame}
 
-    \uncover<2->{
-\centering
-      \includegraphics[width=6cm]{./img/tael_binaert_med_fingrene.jpg}}
-  \end{frame}
-  \begin{frame}
-    \frametitle{Grover's algorithm with 4 drawers}
-    \begin{itemize}
-      
-    \item<1-> We assume that the phone is in drawer 11 (the 4th drawer labeled number 3 as we count from 0).
-    \item<2-> First step - Prepare the state: $\ket{\psi}=\frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}+\ket{11} \right)$.
-    \item<3-> Second step - act with the operator: $O = - \ket{11}\bra{11}$.
-      
-\begin{align*}
-  O \ket{\psi} &= \left( -\ket{11}\bra{11} \right)\frac{1}{2}\left( \ket{00} + \ket{01}+\ket{10} + \ket{11} \right) \\
-  &=\frac{1}{2}\left( \ket{00} + \ket{01}+\ket{10} - \ket{11} \right)
-\end{align*}
-    \end{itemize}
-  \end{frame}
-  \begin{frame}
-    \frametitle{Grover's algorithm with 4 drawers}
-    \begin{itemize}
-    \item <1-> Third step - act with the operator: $\left( 2 \ket{\psi}\bra{\psi}- I \right)$.
-      
-    \item<2-> The combined operator is called $G = \left( 2 \ket{\psi}\bra{\psi}-I \right) O$.
-    \item<3-> $G\ket{\psi}=\left( 2 \ket{\psi}\bra{\psi}-I \right) O\ket{\psi}$.
-      
-    \item<4-> Fancy trick!
-      
-\begin{align*}
-  O \ket{\psi} &= \frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}-\ket{11} \right) \\
-               &=\frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}+\ket{11} \right) - \ket{11} \\
-  &= \ket{\psi} - \ket{11}
-\end{align*}
-      
-    \end{itemize}
-  \end{frame}
-  \begin{frame}
-    \frametitle{Grover's algorithm with 4 drawers}
-    \begin{itemize}
-    \item<1-> All combined:
-      
-\begin{align*}
-  G\ket{\psi}&=\left( 2 \ket{\psi}\bra{\psi}-I \right) O\ket{\psi} \\
-             &=\left( 2 \ket{\psi}\bra{\psi}-I \right) \left( \ket{\psi} - \ket{11} \right) \\
-             &=2 \ket{\psi}\braket{\psi|\psi} - I \ket{\psi} - 2 \ket{\psi}\braket{\psi|11} + I \ket{11} \\
-             &=2 \ket{\psi} - \ket{\psi} - 2 \ket{\psi}\frac{1}{2} + \ket{11} \\
-  &= \ket{11}
-\end{align*}
-\item<2-> If we measure now we will get 11 with 100\% probability.
-\item<3-|alert@3> But it's like cheating! We told the \emph{Oracle} (O operator) where the phone was from the beginning.
-\item<4-|alert@4> Grover's algorithm needs to be part of a complete algorithm.
-    \end{itemize}
-  \end{frame}
-  \begin{frame}
-    \frametitle{Grover's algorithm with 8 drawers}
-    Read the example about Grover's algorithm for $N=8$ on page 22 and 23 in the notes.
-  \end{frame}
+%   \begin{frame}
+%     \section{\textbf{Grover} Baby! - Yeah!}
+%     \centering
+% \includegraphics[width=5cm]{./img/Lov-Kumar-Grover.jpg}
+%   \end{frame}
+%   \begin{frame}
+%     \frametitle{Grover's algorithm}
+%     \begin{columns}
+%       \begin{column}{0.6\linewidth}
+%         \begin{itemize}
+%         \item<+-> You have put your smartphone in the cabinet.
+%         \item<+-> but you forgot the exact drawer!
+%         \item<+-> A classical computer would on average use $\frac{N}{2}$ searches.
+%         \item<+-> A quantum computer would on average use $\sqrt{N}$ searches using \emph{Grover's algorithm}.
+%         \item<+-> Let us retrieve the phone using Grover's algorithm.
+%         \end{itemize}
+%       \end{column}
+%       \begin{column}{0.4\linewidth}
+%     \centering
+% \includegraphics[width=0.8\linewidth]{./img/arkivskab.jpg}
+%       \end{column}
+%     \end{columns}
+%   \end{frame}
+%   \begin{frame}
+%     \frametitle{Grover's algorithm with 4 drawers}
+%     \begin{itemize}
+%     \item 4 drawers can be represented by $n=2$ qubits in the special states $\ket{00}, \ket{01}, \ket{10}, \ket{11}$.
+%     \item 00, 01, 10, 11 in binary are simply 0, 1, 2, 3 in decimal numbers \uncover<2->{\alert{if you recall.}}
+%     \end{itemize}
 
-  \begin{frame}
-    \frametitle{Grover's algorithm on IBM Q}
-    Now finally open and work on the exercise \emph{GroversAlgorithm.ipynb} on \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-computing.ibm.com}
+%     \uncover<2->{
+% \centering
+%       \includegraphics[width=6cm]{./img/tael_binaert_med_fingrene.jpg}}
+%   \end{frame}
+%   \begin{frame}
+%     \frametitle{Grover's algorithm with 4 drawers}
+%     \begin{itemize}
+      
+%     \item<1-> We assume that the phone is in drawer 11 (the 4th drawer labeled number 3 as we count from 0).
+%     \item<2-> First step - Prepare the state: $\ket{\psi}=\frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}+\ket{11} \right)$.
+%     \item<3-> Second step - act with the operator: $O = - \ket{11}\bra{11}$.
+      
+% \begin{align*}
+%   O \ket{\psi} &= \left( -\ket{11}\bra{11} \right)\frac{1}{2}\left( \ket{00} + \ket{01}+\ket{10} + \ket{11} \right) \\
+%   &=\frac{1}{2}\left( \ket{00} + \ket{01}+\ket{10} - \ket{11} \right)
+% \end{align*}
+%     \end{itemize}
+%   \end{frame}
+%   \begin{frame}
+%     \frametitle{Grover's algorithm with 4 drawers}
+%     \begin{itemize}
+%     \item <1-> Third step - act with the operator: $\left( 2 \ket{\psi}\bra{\psi}- I \right)$.
+      
+%     \item<2-> The combined operator is called $G = \left( 2 \ket{\psi}\bra{\psi}-I \right) O$.
+%     \item<3-> $G\ket{\psi}=\left( 2 \ket{\psi}\bra{\psi}-I \right) O\ket{\psi}$.
+      
+%     \item<4-> Fancy trick!
+      
+% \begin{align*}
+%   O \ket{\psi} &= \frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}-\ket{11} \right) \\
+%                &=\frac{1}{2}\left( \ket{00}+\ket{01}+\ket{10}+\ket{11} \right) - \ket{11} \\
+%   &= \ket{\psi} - \ket{11}
+% \end{align*}
+      
+%     \end{itemize}
+%   \end{frame}
+%   \begin{frame}
+%     \frametitle{Grover's algorithm with 4 drawers}
+%     \begin{itemize}
+%     \item<1-> All combined:
+      
+% \begin{align*}
+%   G\ket{\psi}&=\left( 2 \ket{\psi}\bra{\psi}-I \right) O\ket{\psi} \\
+%              &=\left( 2 \ket{\psi}\bra{\psi}-I \right) \left( \ket{\psi} - \ket{11} \right) \\
+%              &=2 \ket{\psi}\braket{\psi|\psi} - I \ket{\psi} - 2 \ket{\psi}\braket{\psi|11} + I \ket{11} \\
+%              &=2 \ket{\psi} - \ket{\psi} - 2 \ket{\psi}\frac{1}{2} + \ket{11} \\
+%   &= \ket{11}
+% \end{align*}
+% \item<2-> If we measure now we will get 11 with 100\% probability.
+% \item<3-|alert@3> But it's like cheating! We told the \emph{Oracle} (O operator) where the phone was from the beginning.
+% \item<4-|alert@4> Grover's algorithm needs to be part of a complete algorithm.
+%     \end{itemize}
+%   \end{frame}
+%   \begin{frame}
+%     \frametitle{Grover's algorithm with 8 drawers}
+%     Read the example about Grover's algorithm for $N=8$ on page 22 and 23 in the notes.
+%   \end{frame}
 
-    \begin{center}
-      \includegraphics[width=10cm]{./img/ibm-q-grover.png}
-      \end{center}
-  \end{frame}
+%   \begin{frame}
+%     \frametitle{Grover's algorithm on IBM Q}
+%     Now finally open and work on the exercise \emph{GroversAlgorithm.ipynb} on \href{https://lab.quantum-computing.ibm.com}{https://lab.quantum-computing.ibm.com}
+
+%     \begin{center}
+%       \includegraphics[width=10cm]{./img/ibm-q-grover.png}
+%       \end{center}
+%   \end{frame}
 \end{document}
